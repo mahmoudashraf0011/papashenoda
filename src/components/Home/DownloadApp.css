@@ -1,0 +1,98 @@
+.downloadApp{
+    margin-top: 70px;
+    background-color:#778C7E;
+    padding-top:10px;
+    color: #fff;
+    position: relative;
+}
+.downloadAppImg{
+    margin-top: 30px;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    z-index: 2;
+    margin-left: 100px;
+
+}
+.downloadAppImg > img{
+    width: 100%;
+    height: 100%;
+    
+}
+.downloadAppItems{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.downloadAppContent{
+    float: right;
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 70px ;
+    
+}
+.downloadAppTitle{
+
+    margin-bottom: 10px;
+    font-family: Tajawal;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 61px;
+ 
+
+ 
+}
+.downloadAppDesc{
+    width: 94%;
+    float: right;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    direction: rtl;
+
+
+}
+.downloadAppLinks{
+    display: flex;
+  justify-content: flex-end;
+    align-items: center;
+    gap: 70px;
+}
+.downloadAppLinksLeft > a{
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer !important;
+}
+.downloadAppLinks > a > img{
+width: 90%;
+
+}
+.downloadAppLinksLeft > a > img{
+    width: 80%;
+}
+.downloadAppBg{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.downloadAppBg >img{
+    width: 100%;
+    height: 100%;
+}
+.downloadAppBg.one{
+    left: 0;
+    background-image: url('../../../public/assets/Download/bg1.png');
+    background-position: left;
+ 
+}
+.downloadAppBg.two{
+    right: 0;
+    background-image: url('../../../public/assets/Download/bg2.png');
+    top: 14px;
+    right: -368px;
+
+}

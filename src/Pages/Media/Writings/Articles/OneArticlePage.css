@@ -1,0 +1,14 @@
+.oneArticlePage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 155px; */
+    /* padding-top: 60px; */
+    min-height: 64.8vh;
+
+}
+.oneArticlePage .mediaHeader{
+    margin-top: 50px !important;
+  }
+  html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+}

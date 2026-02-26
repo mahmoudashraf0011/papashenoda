@@ -1,0 +1,25 @@
+@media only screen and (max-width: 662px) {
+  .overlayCardHead img{
+    margin-right: 10px;
+  }
+  .soundsPage .overlayCardHead img{
+     margin-top:15px ;
+
+  }
+  .shareItems{
+    margin-bottom: 10%;
+  }
+  .shareLinkTitle{
+    width: 50%;
+  }
+   .shareLink .shareLinkContent{
+    margin-bottom: -2% !important;
+  }
+
+  .overlayCardHead .sharedCancel1{
+    margin-top: -5px;
+  }
+  .overlayCardHead .sharedTitle1{
+    margin-top: 10px;
+  }
+}

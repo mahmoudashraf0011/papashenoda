@@ -1,0 +1,15 @@
+.profilePage{
+    background: #fff;
+    color: black;
+   
+
+
+}
+.profilePageItems{
+    display: flex;
+    direction: rtl;
+    gap:50px;
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+  }

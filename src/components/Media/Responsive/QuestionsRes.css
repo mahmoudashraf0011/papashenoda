@@ -1,0 +1,362 @@
+@media only screen and (max-width: 1150px) and (min-width: 662px)  {
+
+    .questionCardQues{
+        font-size: 25px;
+        font-weight: bold;
+        width: 95%;
+    }
+    .p-multiselect,.p-dropdown{
+        width: 158px !important;
+        position: relative !important;
+    
+    }
+    .p-multiselect-label,.p-dropdown-label{
+    
+        position: relative;
+        width: 100%;
+        text-align: right ;
+        font-size: 14px !important;
+        font-weight: bold;
+    }
+    .p-multiselect,.p-dropdown{
+        width: 208px !important;
+        position: relative !important;
+    
+    }
+    .p-multiselect-label,.p-dropdown-label{
+    
+        position: relative;
+        width: 100%;
+        text-align: right ;
+        font-size: 14px !important;
+        font-weight: bold;
+    }
+    
+ 
+    .p-multiselect-trigger,.p-dropdown-trigger {
+        position: absolute;
+        left: 5%;
+        top: 30%;
+    }
+    .p-multiselect-trigger > img,.p-dropdown-trigger > img{
+        width: 15px !important;
+    }
+
+.custom-menu > .filterFiled{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    width: 158px;
+    border: none;
+    padding: 0.5rem 1.25rem;
+}
+.filterFiled > img{
+    width: 15px !important;
+}
+.custom-menu > .filterFiled  > div{
+    font-weight: bold;
+}
+.p-multiselect-panel {
+    position: absolute !important;
+    max-width: 152px !important;
+}
+.custom-dropdown-content{
+    max-width: 159px !important;
+    
+}
+.p-multiselect-close {
+    justify-content: flex-end !important;
+}
+.p-dropdown-filter-container svg, .p-multiselect-filter-container svg {
+    width: 33px;
+    height: 33px;
+    padding: 10px;
+     margin-right: 65% !important; 
+}
+.custom-menu .custom-dropdown-content {
+    position: absolute;
+    z-index: 1;
+    width: 209px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     gap: 0 !important;
+}
+}
+@media only screen and (max-width: 662px) and (min-width: 0)  {
+    .questionsBG {
+    
+        display: none !important;
+
+    }
+    .questionsBGRes{
+        display: block !important;
+        margin-bottom: 50px;
+    }
+    .questionLoveContainer{
+        margin-bottom: 10px !important;
+    }
+    .questionsPage {
+        background: #F8F3ED;
+        color: black;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 1px !important;
+        min-height: 60.8vh;
+    }
+    .questionsPage .media_more_btn_res{
+        display: none !important;
+    }
+    .questionsPage  .headerContent{
+        direction: rtl !important;
+    }
+  .questionContainer  .questionCardQues{
+        font-weight: bold;
+        width: 300px;
+        word-break: break-word;
+        overflow: hidden; /* Prevent overflow */
+      }
+      .questionContainer  .questionsBG{
+        height: 95px !important;
+    }
+     .questionsBGTitle{
+            position: absolute;
+            top: 39% !important;
+            left: 33% !important;
+            color: #810400;
+            font-family: Tajawal;
+            font-size: 20px !important;
+            font-weight: 900;
+            line-height: 48px;
+        
+        
+    
+    }
+    .questionsBG{
+        height: 90px !important;
+    }
+    .questionCard{
+        position: relative !important;
+        padding-bottom: 50px !important;
+    }
+    .PlusIcon{
+        position: absolute !important;
+        left: 10% !important;
+        bottom: 10% !important;
+    }
+    .questionCardContentRight{
+        align-items: flex-start !important;
+    }
+    .dropdown-trigger {
+        position: absolute;
+        left: 5% !important;
+        top: 30% !important;
+    }
+    .videos-filter-info {
+      display: flex;
+      gap: 5px !important;
+    }
+
+
+    .p-multiselect,.p-dropdown{
+        width: 152px !important;
+        position: relative !important;
+    
+    }
+    .p-multiselect-label,.p-dropdown-label{
+    
+        position: relative;
+        width: 100%;
+        text-align: right ;
+        font-size: 14px !important;
+        font-weight: bold;
+        flex: 0 0 auto !important;
+        justify-content: center !important;
+        width: 80% !important;
+    }
+    .p-multiselect,.p-dropdown{
+        width: 152px !important;
+        position: relative !important;
+    
+    }
+    .p-multiselect-label,.p-dropdown-label{
+    
+        position: relative;
+        width: 100%;
+        text-align: right ;
+        font-size: 14px !important;
+        font-weight: bold;
+    }
+    
+ 
+    .p-multiselect-trigger,.p-dropdown-trigger {
+        position: absolute;
+        left: 5%;
+        top: 30%;
+    }
+    .p-multiselect-trigger > img,.p-dropdown-trigger > img{
+        width: 15px !important;
+    }
+
+.custom-menu > .filterFiled{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    width: 152px;
+    border: none;
+    padding: 0.5rem 1.25rem;
+}
+.filterFiled > img{
+    width: 15px !important;
+}
+.custom-menu > .filterFiled  > div{
+    font-weight: bold;
+}
+.questionContainer .mediaHeaderTitle{
+    font-size: 25px ;
+}
+.questionContainer .mediaHeaderTitle::after{
+    top:3px
+}
+.questionContainer  .questionCardQues{
+    font-size: 15px !important;
+    font-weight: bold;
+    width: 100% !important;
+
+}
+.questionContainer  .PlusIcon{
+    border: 3px solid #000;
+    padding: 2px;
+    font-size: 15px !important;
+    font-weight: bold;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.questionContainer  .questionCardContentRight > img{
+    width: 30px !important;
+    margin-left: 10px;
+
+}
+.questionContainer  .questionCardDropdown > p{
+    /* font-family: Tajawal;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 38.4px; 
+    width: 73%;
+    padding: 30px 53px 30px 0;
+    height: calc(38.4px * 5 + 30px + 30px); 
+    overflow-y: auto;   */
+    font-family: Tajawal;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.4px; 
+    width: 100%;
+    padding: 30px 53px 30px 0;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    /* height: calc(38.4px * 5 + 30px + 30px);  */
+    height: 120px;
+    overflow-y: auto;
+}
+.questionContainer  .mediaHeaderTitle{
+    font-size: 18px !important;
+}
+.textDP {
+    width: 37% !important;
+    width: 62% !important;
+}
+.custom-dropdown-content{
+    width: 153px !important;
+    gap: 0 !important;
+}
+.p-dropdown-item-label {
+    white-space: normal !important; /* Allows wrapping */
+    overflow-wrap: anywhere !important; /* Breaks text based on available space */
+    width: 90% !important; /* Restrict the element's width to 90% */
+    text-align: right !important; /* Aligns the text to the right */}
+.p-dropdown-panel {
+    max-width: 53px;
+    left: 192px;
+}
+
+.p-multiselect-item > span{
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    width: 90% !important;
+    text-align: right !important;
+    /* word-break: break-all !important;   */
+}
+.p-multiselect-items .p-multiselect-item {
+    word-break: break-word;
+    white-space: normal;
+    max-width: 250px;
+}
+.p-multiselect-panel{
+    position: absolute !important;
+    left: 13% !important;
+    max-width: 152px !important;
+}
+.p-multiselect-filter-container{
+    margin: 5px !important;
+}
+.p-multiselect-close{
+    justify-content: flex-end !important;
+}
+.p-dropdown-filter-container svg, .p-multiselect-filter-container svg{
+    margin-right: 60% !important;
+}
+.questionCardContent{
+    direction: rtl;
+}
+}
+@media only screen and (max-width: 400px) and (min-width: 390px)  {
+    .p-multiselect-panel{
+        position: absolute !important;
+        left: 16% !important;
+        max-width: 152px !important;
+    }
+}
+@media only screen and (max-width: 420px) and (min-width: 400px)  {
+    .p-multiselect-panel{
+        position: absolute !important;
+        left: 20% !important;
+        max-width: 152px !important;
+    }
+}
+@media only screen and (max-width: 662px) and (min-width: 421px)  {
+    .p-multiselect-panel{
+        position: absolute !important;
+        left: 24% !important;
+        max-width: 152px !important;
+    }
+    
+}
+@media only screen and (max-width: 370px) and (min-width: 350px)  {
+    .p-multiselect-panel{
+        position: absolute !important;
+        left: 9% !important;
+        max-width: 152px !important;
+    }
+    
+}
+@media only screen and (max-width: 345px) and (min-width: 300px)  {
+    .p-multiselect-panel{
+        position: absolute !important;
+        left: 6% !important;
+        max-width: 152px !important;
+    }
+    
+}

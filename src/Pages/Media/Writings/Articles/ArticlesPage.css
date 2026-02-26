@@ -1,0 +1,19 @@
+.articlesPage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 196px; */
+    /* padding-top: 60px; */
+    padding-bottom: 1px;
+    min-height: 105vh;
+
+   
+
+
+}
+
+.articlesPage .mediaHeader{
+  margin-top: 50px !important;
+}
+html {
+  scroll-behavior: auto; /* Default: no smooth scrolling */
+}

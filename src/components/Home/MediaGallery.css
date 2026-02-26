@@ -1,0 +1,165 @@
+.mediaGallery{
+    position: relative;
+    direction: rtl;
+    background: linear-gradient(180deg, rgba(255, 237, 197, 0.4) 0%, #FFEDC5 100%);
+
+
+}
+.mediaGalleryItems{ 
+display: grid;
+grid-template-columns: repeat(5,1fr);
+gap: 10px;
+margin: auto;
+margin-bottom: -20px;
+z-index: 2;
+position: relative;
+width: 90%;
+
+}
+.mediaGalleryCard{
+    border: 1px solid #fff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    position: relative;
+    
+ 
+}
+.mediaGalleryCardImg{
+height: 130px;
+
+}
+.mediaGalleryCardImg > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.mediaGalleryCardContent{
+    background-color:rgb(255, 255, 255,0.7);
+    padding: 10px 16px 15px 15px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+.mediaGalleryCardUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    direction: ltr;
+
+
+}
+.mediaGalleryCardCategory{
+    font-weight: bold;
+}
+.mediaGalleryCardCount{
+    color: gray;
+    font-size: 18px !important;
+}
+.mediaGalleryCardDesc{
+    text-align: right;
+    color: #767676;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 35px;
+    font-family: Tajawal;
+    font-weight: 500;
+    line-height: 18.56px;
+
+
+}
+.mediaGalleryCardBtn{
+    text-align: right;
+    float: right;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 7px 20px 8px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 1px 1px 0px #00000040;
+    font-weight: bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.mediaGalleryCardBtn:hover{
+    background: #810400;
+    color: #fff;
+}
+.IconContainer{
+    padding: 6px;
+    line-height: 10px;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color:rgba(239, 239, 240,0.4);
+
+}
+.mediaGalleryCardIcon{
+    font-weight: bold;
+    opacity: 1;
+    width: 100%;
+}
+.bgMediaGallery{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../../../public/assets/MediaGallery/bgGroup.png");
+    background-repeat:repeat-y;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.bgMediaGallery.two{
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mediaGalleryRes .mediaGalleryCard{
+    width: 80%;
+    margin: auto;
+}
+.mediaGalleryRes .swiper-pagination{
+    position: initial !important;
+    margin-top: 10px;
+}
+.mediaGalleryRes  .swiper-pagination-bullet{
+    background: rgba(118, 118, 118, 1) !important;
+
+
+}
+.mediaGalleryRes .swiper-pagination-bullet-active {
+    background: rgba(252, 195, 69, 1) !important;
+    width: 50px !important;
+    border-radius: 15px !important;
+}

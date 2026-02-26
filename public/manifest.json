@@ -1,0 +1,17 @@
+{
+  "short_name": "Pope",
+  "name": "الموقع الرسمي لقداسة البابا شنوده الثالث",
+  "icons": [
+
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+ 
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

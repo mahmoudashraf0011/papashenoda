@@ -1,0 +1,98 @@
+.about {
+  width: 100%;
+  display: flex;
+}
+
+.about-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  background: rgb(248, 243, 237);
+  padding-bottom: 50px;
+}
+
+.about-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-infos {
+  padding: 1rem 7rem;
+}
+
+.about-about {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: right;
+  padding-right: 20px;
+  position: relative;
+}
+.about-about::before {
+  content: "";
+  background: rgb(252, 195, 69);
+  height: 40px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  position: absolute;
+  width: 6px;
+}
+
+.about-about2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 50px;
+  position: relative;
+}
+.about-about2::before {
+  content: "";
+  background: rgb(252, 195, 69);
+  height: 40px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  position: absolute;
+  width: 6px;
+}
+
+.about-about-ps {
+  margin-top: 20px;
+  direction: rtl;
+}
+.about-about-ps p {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.about-about-ps2 {
+  margin-top: 20px;
+}
+.about-about-ps2 p {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: right;
+}
+.about-about-ps2 span {
+  font-weight: 700;
+}
+
+.about-infos .about-about-ps2:not(:first-child) {
+  margin-top: 40px;
+}
+
+.about-infos .about-about-ps2:first-child {
+  margin-top: 20px;
+}
+
+html {
+  scroll-behavior: auto; /* Default: no smooth scrolling */
+}/*# sourceMappingURL=About.css.map */

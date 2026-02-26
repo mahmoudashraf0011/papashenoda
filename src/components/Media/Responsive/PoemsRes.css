@@ -1,0 +1,170 @@
+@media only screen and (max-width: 1150px) and (min-width: 662px){
+    .PoemsItems{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        text-align: right;
+        direction: rtl;
+        margin-bottom: 80px;
+    }
+    .PoemsContainer .mediaHeaderTitle{
+        font-size: 20px ;
+    }
+    .PoemsContainer::after{
+        top:3px
+    }
+    .poemsCard{
+        width: 100%;
+    }
+    .poemsCardTitle{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .poemsCardDesc{
+        font-size: 17px;
+        word-break: break-all;
+        font-family: Cairo;
+        font-weight: 400;
+        color: #767676 ;
+        text-align: right;    
+        margin-bottom: 10px;
+        width: 87%;
+        overflow: hidden;
+        display: -webkit-box; /* Enables the flex-like behavior for truncation */
+        -webkit-box-orient: vertical; /* Sets the box orientation to vertical */
+        overflow: hidden; /* Hides overflowing content */
+        text-overflow: ellipsis; /* Adds the ellipsis (...) */
+        -webkit-line-clamp: 2; /* Limits the text to 2 lines */
+        line-height: 1.5; /* Adjusts the height of each line */
+        max-height: calc(1.5em * 2); /* Ensures max height matches 2 lines */
+        white-space: normal;
+
+    }
+    .onPoemContentImg{
+        width: 35% !important;
+        height: 250px !important;
+        
+    }
+   .onePoemContainer  .mediaHeaderTitle{
+        font-size: 20px ;
+    }
+    .onePoemContainer .mediaHeaderTitle::after{
+        top:3px
+    }
+    .onPoemContent  {
+        font-family: Tajawal;
+        font-size: 18px !important;
+        font-weight: 400;
+        line-height: 49.6px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+    }
+    .onPoemVideo > iframe{
+        width: 65%;
+        height: 300px !important;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    
+    }
+}
+@media only screen and (max-width: 662px) and (min-width: 0){
+    .poemsPage .media_more_btn_res,.onePoemPage .media_more_btn_res {
+        display: none !important;
+    }
+    .poemsPage  .headerContent{
+        direction: rtl !important;
+    }
+    .poemsPage {
+        margin-top: 0 !important;
+        padding-bottom:  1px !important;
+    }
+.poemsCard > a{
+    height: auto !important;
+}
+.onePoemPage {
+    background: #F8F3ED;
+    color: black;
+    margin-top: 0 !important;
+    padding-top: 30px !important;
+    padding-bottom: 50px;
+    min-height: 60.8vh;
+}
+    .PoemsContainer .mediaHeaderTitle{
+        font-size: 20px ;
+    }
+   .PoemsContainer .PoemsContainer .mediaHeaderTitle::after{
+        top:3px
+    }
+   .PoemsContainer .PoemsItems{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        text-align: right;
+        direction: rtl;
+        margin-bottom: 10px;
+    }
+   .PoemsContainer .poemsCardDesc{
+        font-size: 15px;
+        word-break: break-all;
+        font-family: Cairo;
+        font-weight: 400;
+        color: #767676 ;
+        text-align: right;    
+        margin-bottom: 10px;
+        width: 87%;
+        overflow: hidden;
+        display: -webkit-box; /* Enables the flex-like behavior for truncation */
+        -webkit-box-orient: vertical; /* Sets the box orientation to vertical */
+        overflow: hidden; /* Hides overflowing content */
+        text-overflow: ellipsis; /* Adds the ellipsis (...) */
+        -webkit-line-clamp: 2; /* Limits the text to 2 lines */
+        line-height: 1.5; /* Adjusts the height of each line */
+        max-height: calc(1.5em * 2); /* Ensures max height matches 2 lines */
+        white-space: normal;
+
+}
+.onPoemVideo {
+    text-align: center;
+    width: 95% !important;
+    height: 275px !important;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
+}
+.onPoemItems{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.onPoemContentImg{
+    width: 100% !important;
+    height: 230px !important;
+    
+}
+.onPoemContentImg > img{
+    object-fit: cover;
+    object-position: top;
+}
+.onPoemContent{
+    width: 100% !important;
+    font-family: Tajawal;
+font-weight: 400;
+line-height: 39.6px !important;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.onPoemContent >  p{
+    font-size: 14px !important;
+}
+.onePoemContainer  .mediaHeaderTitle{
+    font-size: 16px ;
+}
+.onePoemContainer .mediaHeaderTitle::after{
+    top:3px
+}
+}

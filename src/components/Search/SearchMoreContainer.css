@@ -1,0 +1,84 @@
+.searchMoreContainer{
+    min-height:130vh;
+}
+.searchMoreContainer .categoryBooksData > div > div>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    direction: rtl;
+    justify-content: flex-start;
+    margin-bottom:80px;
+}
+
+ .searchMoreContainer .books-section-one-books-info{
+    direction: ltr; 
+    width: 400px;
+}
+.searchMoreContainer{
+    padding-top: 30px;
+}
+.categoryBooksData{
+    position: relative;
+}
+.searchMoreContainer .sayingsWriteItems{
+    margin-bottom: 90px;
+}
+.searchMoreContainer .sayingsWriteItems .sayingWriteCard .sayingWriteCardContent{
+    width: 100%;
+}
+.categoryDocsData{
+    direction: rtl;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(4,1fr);
+}
+.categoryGalleryData{
+justify-content: flex-start
+}
+.dp.selected .p-dropdown-label {
+    color: #fff !important; /* Apply color only when a value is selected */
+}
+.searchMoreContainer .books-section-one-books-1{
+    margin-top: 0;
+}
+.searchMoreContainer .books-head-stand1{
+    position: absolute;
+    top: 90%;
+    right: -40px;
+    width: 1450px  ;
+}
+
+@media screen and (max-width: 1500px) {
+    .searchMoreContainer .categoryBooksData .books-book{
+        width: 200px !important;
+    }
+    .searchMoreContainer .books-head-stand1{
+        position: absolute;
+        top: 97%;
+        right: -40px;
+        width: 1190px  ;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 690px) {
+  .searchMoreContainer .categoryHeader{
+    margin-top: 5% !important;
+  }
+  .searchMoreContainer .books-section-one-books-info{
+    margin-left: -1% !important;
+  }
+  .searchMoreContainer .books-section-one-save2{
+    overflow: visible !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 830px) {
+  .searchMoreContainer .categoryHeader{
+    margin-top: 5% !important;
+  }
+  .searchMoreContainer .books-section-one-books-info{
+    margin-left: -1% !important;
+  }
+  .searchMoreContainer .books-section-one-save2{
+    overflow: visible !important;
+  }
+}

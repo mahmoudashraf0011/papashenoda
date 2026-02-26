@@ -1,0 +1,76 @@
+.soundsPage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 96px; */
+    padding-top: 0px;
+    /* min-height: 60.8vh; */
+
+}
+.soundsItems > div >.articleFilter{
+    direction: ltr;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.soundsItemsflex{
+    direction: rtl;
+    display: flex;
+    gap: 1px;
+    width: 100%;
+    justify-content:space-between;
+}
+.soundsPage .header-bottom-enter{
+    border: 1px solid #333;
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+  }
+
+  @media only screen and (max-width: 1368px) and (min-width: 663px){
+    .soundsSidebarContainer, .soundsLeft {
+      height: 87vh !important;
+    }
+    .infinite-scroll-component{
+      height: 87vh !important;
+    }
+    .soundsItemsflex {
+      height: 102vh !important;
+  }
+
+  .soundsPage .soundsSidebarContainer{
+    height: 100vh !important;
+}
+
+  .soundsLeft{
+    overflow: scroll !important;
+  }
+  .play-info-cont {
+    width: 45% !important;
+  }
+  .play-info-flex {
+    margin-right: 50px;
+  }
+  .play-complex-play-cont > a{
+   
+    right: 62px !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .play-complex-play-cont > img{
+    position: absolute;
+    top: 65% !important;
+    right: 30px;
+    left: 42px;
+    width: 20px;
+    cursor: pointer;
+  }
+
+
+  }
+  @media only screen and (max-width: 900px) and (min-width: 800px){
+    .play-complex-play-cont > a{
+   
+      right: 4.3em !important;
+      width: 30px !important;
+      height: 30px !important;
+    }
+  }

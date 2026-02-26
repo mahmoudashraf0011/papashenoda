@@ -1,0 +1,24 @@
+.docsFilterPage{
+    background: #F8F3ED;
+    color: black;
+  /* padding-top: 10px; */
+    padding-bottom: 0px;
+    min-height: 102vh;
+
+ 
+}
+.docsFilterPage .media_more_btn{
+  display: none;
+}
+.docsFilterPage .headerContent {
+  justify-content: flex-end !important;
+}
+.docsFilterPage .mediaHeader{
+  margin-top: 50px !important;
+}
+.docsFilterPage .Container{
+  width: 84%;
+}
+html {
+  scroll-behavior: auto; /* Default: no smooth scrolling */
+}

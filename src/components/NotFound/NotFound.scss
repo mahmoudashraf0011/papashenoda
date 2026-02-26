@@ -1,0 +1,49 @@
+.notfound {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // margin-top: 196px;
+    background-color:#F8F3ED;
+
+}
+
+.notfound-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.notfound-main{
+    text-decoration: underline;
+    color: #001857;
+}
+.notfound-noresult {
+    font-size: 28px;
+    font-weight: 400;
+    color: #767676;
+
+}
+
+.notfound-return {
+    font-size: 20px;
+    font-weight: 400;
+    color: #767676;
+    margin-top: 10px;
+    span {
+        font-size: 20px;
+        font-weight: 400;
+
+        color: #001857;
+
+    }
+}
+.notfound-img{
+    margin-top: 20px;
+    width: 800px;
+    height: 370px;
+    object-fit: contain;
+}

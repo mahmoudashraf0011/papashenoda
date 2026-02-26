@@ -1,0 +1,98 @@
+.profileSider{
+    padding-top: 50px;
+    background: #F9F9F9;
+    padding-right: 2rem; /* Scales with font size */
+    height: 80vh;
+    max-width: 28rem;
+
+}
+.userProfileLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh; 
+}
+.userProfileLinksItem{
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 15px;
+    margin-left: 15px;
+    transition:background-color 0.5s ;
+    -webkit-transition:background-color 0.5s ;
+    -moz-transition:background-color 0.5s ;
+    -ms-transition:background-color 0.5s ;
+    -o-transition:background-color 0.5s ;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding-left: 150px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+margin-top: -10px;}
+.userProfileLinksItem.active{
+    background-color: #001857;
+    color: #fff;
+}
+.userProfileLinksItem > div{
+    margin-left: 15px;
+}
+.userProfileLinksItem > p{
+    font-weight: 500;
+    width: 100px;
+}
+.userProfileLinksItem:hover{
+    background-color: #001857;
+    color: #fff;
+
+}
+.logoutDP:hover{
+    background: #810400;
+    color: #fff;
+
+}
+.userProfileLinksItem:last-child{
+
+
+}
+.account .profileImg {
+    height: 25px;
+    width: 25px;
+    background-image: url('../../../public/assets/profile/userIcon.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.account:hover .profileImg,.account.active .profileImg {
+
+    background-image: url('../../../public/assets/profile/userIconHover.png');
+}
+
+.subscribe .profileImg {
+    background-image: url('../../../public/assets/profile/subscribeIcon.png');
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+}
+
+.subscribe:hover .profileImg,.subscribe.active .profileImg {
+    background-image: url('../../../public/assets/profile/subscribeIconHover.png');
+}
+
+
+.logoutDP .profileImg {
+
+    background-image: url('../../../public/assets/profile/logoutIcon.png');
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+}
+
+.logoutDP:hover .profileImg,.logoutDP.active .profileImg {
+    background-image: url('../../../public/assets/profile/logoutHover.png');
+}

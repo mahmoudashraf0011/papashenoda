@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1150px) and (min-width: 662px)  {
+    .sayingsPhotoCardImg{
+        width: 100%;
+        height: 230px;
+    }
+    .sayingFilterContainer .mediaHeaderTitle{
+        font-size: 25px ;
+    }
+    .sayingFilterContainer::after{
+        top:3px
+    }
+}
+@media only screen and (max-width: 662px) and (min-width: 0){
+  .sayingFilterPage .sayingsPhoto .sayingsPhotoCardImg ,.sayingsPage .sayingsPhoto .sayingsPhotoCardImg {
+        width: 100%;
+        height: 230px;
+    }
+    .sayingFilterPage .sayingsPhoto .mediaHeaderTitle,.sayingFilterContainer .mediaHeaderTitle,.sayingsPage  .mediaHeaderTitle{
+        font-size: 25px ;
+    }
+   .sayingFilterPage .sayingsPhoto::after,.sayingFilterContainer::after{
+        top:3px
+    }
+ .media_more_btn_res{
+        all: unset;
+        color: rgba(129, 4, 0, 1);
+        cursor: pointer;
+        font-size: 14px;
+        display: block !important;
+        font-weight: bold !important;
+    }
+   .sayingFilterPage .sayingsPhoto  .media_more_btn,.sayingsPage  .media_more_btn{
+        display: none;
+    }
+ .sayingFilterPage   .sayingsPhotoItems,.sayingsPage .sayingsPhotoItems{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        direction: rtl;
+    }
+  .sayingFilterPage  .sayingsPhotoCardImg,.sayingsPage .sayingsPhotoCardImg {
+        width: 100%;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 1370px) and (min-width: 663px){
+    .sayingFilterPage {
+        background: #F8F3ED;
+        color: black;
+        /* padding-top: 255px; */
+        padding-bottom: 50px;
+        padding-top: 20px;
+        min-height: 68vh !important;
+    }
+}

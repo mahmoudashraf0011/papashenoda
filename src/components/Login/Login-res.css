@@ -1,0 +1,44 @@
+@media (max-width: 662px) {
+  .signup {
+    margin-top: 0 !important;
+  }
+  .signup-wrapper {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+  .signup-relative {
+    width: 100%;
+  }
+  .signup-right-cont {
+    width: 100%;
+    padding: 1rem;
+  }
+  .signup-input {
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 1;
+  }
+  .signup-info {
+    display: none !important;
+  }
+  .headAuthRes {
+    display: block !important;
+  }
+}
+@media (min-width: 662px) and (max-width: 1050px) {
+  .signup-wrapper {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+  .signup-relative {
+    width: 100%;
+  }
+  .signup-right-cont {
+    width: 100%;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=Login-res.css.map */

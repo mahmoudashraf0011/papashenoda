@@ -1,0 +1,26 @@
+.bg{
+    position: relative;
+  padding-bottom: 0;
+  
+}
+.bg > video{
+height: 110vh;
+width: 100%;
+object-fit: cover;
+
+}
+.videoBtn{
+    position: absolute;
+    color: #fff;
+    object-fit: cover;
+    object-position: center;
+    top:87% ;
+    left: 50%;
+    list-style: none;
+
+}
+.videoBtn > img{
+  width: 45px;
+  height: 65px;
+  cursor: initial;
+}

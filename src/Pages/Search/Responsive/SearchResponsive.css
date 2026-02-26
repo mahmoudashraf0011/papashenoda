@@ -1,0 +1,284 @@
+@media only screen and (max-width: 1150px) and (min-width: 662px)  {
+    /* header */
+    .countResult{
+        font-size: 20px !important;
+    }
+    .searchContainer{
+        padding-top: 0 !important;
+    }
+    .searchContainer .media_more_btn_res{
+        display: block !important;
+    }
+    .searchMoreContainer .categoryBooksDataMoreResIpad{
+        display: block !important;
+    }
+     .searchMoreContainer .categoryBooksDataMoreResIpad .books-head-stand1 {
+        width: 100% !important;
+    }
+
+}
+@media only screen and (max-width: 662px) and (min-width: 0){
+    .searchPage{
+        background: #F8F3ED;
+        color: black;
+        margin-top: 0 !important;
+        min-height: 60.8vh;
+        padding-top: 50px;
+    
+    }
+    .searchMorePage{
+        margin-top: 0 !important;
+    }
+    .searchContainer .categoryRow  .swiper-pagination-bullet{
+        background: rgba(118, 118, 118, 1) !important;
+    
+    
+    }
+    .searchContainer .categoryRow .swiper-pagination-bullet-active {
+        background: rgba(252, 195, 69, 1) !important;
+        width: 50px !important;
+        border-radius: 15px !important;
+    }
+    /* sayingsWrite */
+    .searchContainer .media_more_btn_res{
+        display: block !important;
+    }
+    .searchContainer .categoryRow .sayingsWriteItems{
+        display: none !important;
+    }
+    .searchContainer .categoryRow .sayingsWriteItemsCateRes{
+        display: block !important;
+
+    } 
+    .searchMoreContainer .categoryRow .sayingsWriteItems{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) !important;
+        gap: 15px !important;
+    }
+
+    /* books */
+
+    .searchContainer  .categoryBooksData{
+        display: none !important;
+    }
+    .searchContainer  .categoryBooksDataCateRes{
+        display: block !important;
+
+    } 
+    .books-head-stand2 {
+        bottom: -93px !important;
+     }
+     .searchContainer  .cateBook .categoryHeader{
+        margin-bottom: 0 !important;
+     }
+     .searchContainer .categoryRow .books-book {
+        height: 200px !important;
+     }
+     .searchContainer  .categoryBooksDataCateRes .swiper-pagination{
+        position: initial !important;
+        margin-top: 93px !important;
+    }
+    .searchMoreContainer  .categoryBooksData{
+        display: none !important;
+    }
+    .searchMoreContainer  .categoryBooksDataMoreResIpad{
+        display: none !important;
+    
+    }
+    .searchMoreContainer .categoryBooksDataMoreResPhone{
+        display: block !important;
+    
+    }
+    .categoryBooksDataCateRes .books-section-one-books-info{
+        direction: ltr !important;
+    }
+     .searchMoreContainer  .categoryBooksDataMoreResPhone .books-section-one-books-info{
+        margin-bottom: 90px !important;
+        direction: ltr !important;
+
+     }
+     .searchMoreContainer .books-head-stand1 {
+        position: absolute;
+        top: 100% !important;
+        right: 0  !important;
+        width: 100% !important;
+        height: 100px !important;
+    }
+
+/* sayings photo*/
+.searchContainer .categoryRow .sayingsPhotoItems{
+    display: none !important;
+}
+.searchContainer .categoryRow .sayingsPhotoItemsCateRes{
+    display: block !important;
+
+}
+.searchMoreContainer .categoryPhotoSayingsData{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+} 
+/* gallery */
+  .searchContainer .categoryRow .categoryGalleryData{
+    display: none !important;
+}
+  .searchContainer .categoryRow .categoryGalleryDataResCate{
+    display: block !important;
+} 
+/* .searchMoreContainer .categoryRow #text{
+    direction: ltr !important;
+    }
+.searchContainer .categoryRow #text{
+    direction: ltr !important;
+    } */
+    
+.searchMoreContainer .cateOverlayRes .visits-swiper{
+    flex-direction: column !important;
+}
+.searchMoreContainer .visits-front,.searchMoreContainer .visits-back{
+    top: 50% !important;
+}
+.searchContainer .visits-front,.searchContainer .visits-back{
+    top: 50% !important;
+}
+.searchMoreContainer .cateOverlay,.searchContainer .cateOverlay {
+    display: none !important;
+
+}
+.searchMoreContainer .cateOverlayRes,.searchContainer .cateOverlayRes{
+    display: block !important;
+}
+/* articles */
+.searchContainer .categoryRow .articleItems{
+    display: none !important;
+}
+.searchContainer .categoryRow .categoryArticleDataResCate{
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction:row-reverse;
+
+} 
+.searchMoreContainer .categoryArticleData{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.searchMoreContainer .visits-visits{
+    display: block !important;
+}
+.searchContainer .categoryRow .visits-swiper{
+    display: flex !important;
+    flex-direction: column !important;
+}
+ .cateOverlay{
+    display: block !important;
+}
+.searchMoreContainer .visits-front {
+    top: 27% !important;
+}
+.searchMoreContainer   .visits-back {
+    top: 27% !important;
+
+}
+.visits-swiper-right .visits-visits{
+    display: none !important;
+}
+
+
+.searchContainer .visits-front,.searchMoreContainer .visits-front{
+    right: 5% !important;
+}
+.searchContainer .visits-back,.searchMoreContainer .visits-back{
+    left: 5% !important;
+}
+
+.searchContainer .visits-swiper-left img {
+    width: 100%;
+    margin-left: 17px;
+    height: 300px !important;
+}
+.searchMoreContainer .visits-swiper-left img {
+    width: 100%;
+    margin-left: 17px;
+    height: 300px !important;
+}
+.searchMoreContainer{
+    width: 90%;
+    margin: auto;
+}
+.searchMoreContainer .p-multiselect-trigger, .p-dropdown-trigger {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+
+/* poems */
+.searchContainer .categoryRow .categoryPoemsData{
+    display: none !important;
+}
+.searchContainer .categoryRow .categoryPoemsDataResCate{
+    display: block !important;
+
+}
+.searchMoreContainer .categoryRow  .PoemsItems{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+/* docs */
+.searchContainer .categoryRow .categoryDocsData{
+    display: none !important;
+}
+.searchContainer .categoryRow .categoryDocsDataRes{
+    display: flex !important;
+  }
+.searchMoreContainer .categoryRow  .docsItems{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+
+
+ /* questions */ 
+.searchContainer  .categoryRow .categoryQuestionsDataRes{
+display: block !important;
+}
+.searchContainer .categoryRow   .categoryQuestionsData{
+display: none !important;
+}
+ .categoryQuestionsData .questionCard{
+    margin-bottom: 30px !important;
+}
+
+/* sound */
+.searchContainer .categoryRow .categorySoundDataRes{
+display: block !important;
+}
+.searchContainer .categoryRow .categorySoundData{
+display: none !important;
+}
+.searchMoreContainer .categorySoundData{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+/* vidoes */
+.searchContainer .categoryRow .categoryVideoDataRes{
+    display: block !important;
+}
+.searchContainer .categoryRow .categoryVideoData{
+    display: none !important;
+}
+.searchMoreContainer .categoryVideoData{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.searchMoreContainer .categoryVideoCard iframe{
+    max-width: 100% !important;
+}
+.searchMoreContainer .categoryVideoCardDesc{
+    width: 100% !important;
+}
+.searchMoreContainer > div{
+    width: 100% !important;
+}
+.searchMoreContainer .media_more_btn_res{
+    display: none !important;
+}
+}

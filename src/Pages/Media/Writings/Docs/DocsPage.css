@@ -1,0 +1,15 @@
+.docsPage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top:115px; */
+    /* padding-top: 10px; */
+    padding-bottom: 1px;
+    min-height: 70.4vh;
+
+}
+.docsPage .Container{
+    width: 90.5%;
+  }
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+}

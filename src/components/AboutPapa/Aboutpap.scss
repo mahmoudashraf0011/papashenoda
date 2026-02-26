@@ -1,0 +1,348 @@
+
+
+.aboutpapa {
+    width: 100%;
+
+    display: flex;
+
+    // margin-top: 215px;
+
+}
+.aboutpapa-about-res{
+    display: none;
+}
+.aboutpapa-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background: rgba(248, 243, 237, 1);
+
+    padding: 2rem 0 0 0;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.aboutpapa-date {
+    font-size: 14px;
+    font-weight: 400;
+    color: #98A0A2;
+text-align: right;
+}
+
+.aboutpapa-about {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #1A1A1A;
+    text-align: right;
+    border-right: 6px solid rgba(252, 195, 69, 1);
+    padding-right: 20px;
+}
+.aboutpapa-date-res{
+    display:none;
+}
+.aboutpapa-about-ps2 {
+    margin-top: 30px;
+    margin-right: 30px;
+    line-height: 35px;
+    width: 400px;
+
+    p {
+
+        font-size: 20px;
+        font-weight: 500;
+        text-align: right;
+
+
+    }
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.aboutpapa-more {
+    box-shadow: 0px 4px 8px 0px #0000001F;
+    background-color: #FFFFFF !important;
+    font-size: 20px;
+    font-weight: 700;
+    background: #1A1A1A;
+    border-radius: 10px;
+    padding: .5rem 5rem;
+    margin-top: 30px;
+    border: none;
+    margin-right: 30px;
+    cursor: pointer;
+    transition-delay: .5s;
+    transition: all .5s ease-out;
+    &:hover{
+        background: #810400 !important;
+        color: white;
+    }
+}
+.aboutpapa-rightsection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.aboutpapa-swipers-mainn{
+    display: flex;
+    align-items: center;
+}
+.aboutpapa-swiper-relative {
+    width: 85%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.aboutpapa-swiper-main {
+    height: 330px;
+    width: 200px;
+}
+
+.aboutpapa-swiper-main2 {
+    width: 120px !important;
+    height: 330px;
+
+}
+
+.aboutpapa-swiper {
+
+
+    height: 330px;
+    width: 200px;
+    position: relative;
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+}
+
+#aboutpapa-swiper-big {
+    height: 450px;
+    width: 300px;
+    position: relative;
+}
+
+#aboutpapa-swiper-small {
+    height: 330px;
+    width: 100px;
+    position: relative;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.aboutpapa-swipers-mains {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.aboutpapa-left-right {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.aboutpapa-back {
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+}
+
+.aboutpapa-front {
+
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+
+}
+
+.aboutpapa-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-self: center;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.aboutpapa-right {
+    display: flex;
+    gap: 50px;
+    padding: 2.5rem 10rem 0 0;
+    position: relative;
+
+    .swiper-pagination-fraction,
+    .swiper-pagination-custom,
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        width: auto;
+        left: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 105px;
+        align-items: center;
+        position: relative;
+        margin-top: 2.5rem;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+           left: 0;
+           right: 0;
+           margin-left: auto;
+           margin-right: auto;
+            width: 0.5px;
+            height: 98%;
+            background-color: #810400;
+            z-index: -1;
+        }
+    }
+
+
+    .swiper-pagination-bullet-active {
+        background: #810400 !important;
+        width: 25px !important;
+        height: 25px !important;
+        font-size: 12px !important;
+        color: white !important;
+        margin: 0 !important;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .swiper-pagination-bullet {
+        background: #810400 !important;
+        width: 10px;
+        height: 10px;
+        border-radius: 50% !important;
+        color: transparent;
+        font-size: 0;
+
+        font-weight: 700;
+
+
+
+    }
+}
+
+.aboutpapa-right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutpapa-swiper-relative .swiper-slide {
+    z-index: 1;
+    opacity: 0 !important;
+}
+
+.aboutpapa-swiper-relative .swiper-slide-active {
+    z-index: 10; /* Keep this on top */
+    opacity: 1 !important;
+}
+
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+}
+@media (max-width: 1500px) {
+    .aboutpapa-about-ps2 {
+        margin-top: 30px;
+        margin-right: 30px;
+        line-height: 35px;
+        width: 100%;
+    
+        p {
+    
+            font-size: 20px;
+            font-weight: 500;
+            text-align: right;
+    
+    
+        }
+    
+        span {
+            font-weight: 700;
+        }
+    }
+    .aboutpapa-right {
+        display: flex;
+        gap: 50px;
+        padding: 2.8rem 7rem 0 0;
+        position: relative;
+    
+        .swiper-pagination-fraction,
+        .swiper-pagination-custom,
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal {
+            width: auto;
+            left: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 105px;
+            align-items: center;
+            position: relative;
+            margin-top: 2rem;
+    
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+               left: 0;
+               right: 0;
+               margin-left: auto;
+               margin-right: auto;
+                width: 0.5px;
+                height: 98%;
+                background-color: #810400;
+                z-index: -1;
+            }
+        }
+    }
+    .aboutpapa-swiper-relative {
+        width: 88%;
+    }
+   }

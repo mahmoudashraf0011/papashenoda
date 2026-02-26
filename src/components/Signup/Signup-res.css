@@ -1,0 +1,75 @@
+@media (max-width: 662px) {
+  .headAuthRes {
+    display: block !important;
+  }
+  .headAuth {
+    display: none !important;
+  }
+  .login-wrapper {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+  .login-relative {
+    width: 100%;
+  }
+  .signup-img {
+    border-radius: 0;
+    height: 238px;
+    border-radius: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
+  .singup-logos-abs {
+    display: none;
+  }
+  .login-right-cont {
+    width: 100%;
+    padding: 1rem;
+  }
+  .signup-welcome {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .signup-labels-inputs {
+    flex-direction: column-reverse;
+  }
+  .signup-collection {
+    width: 100%;
+  }
+}
+@media (min-width: 662px) and (max-width: 1050px) {
+  .login-wrapper {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+  .login-relative {
+    width: 100%;
+  }
+  .signup-img {
+    height: 250px;
+    border-radius: 0;
+  }
+  .singup-logos-abs {
+    display: none;
+  }
+  .login-right-cont {
+    width: 100%;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .signup-welcome {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .signup-labels-inputs {
+    flex-direction: column-reverse;
+  }
+  .signup-collection {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Signup-res.css.map */

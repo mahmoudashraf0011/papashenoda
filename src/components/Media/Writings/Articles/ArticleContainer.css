@@ -1,0 +1,96 @@
+.articleContainer{
+    margin-bottom: 80px;
+}
+.articleItems{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    direction:rtl;
+    
+
+}
+.articleCard{
+    position: relative;
+    background-color: #fff;
+    padding: 15px 15px 15px 10px;
+    display: flex;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 0px 4px 8px 0px #0000001F;
+    width: 99%;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+.articleCardImg{
+    width: 300px;
+    height: 200px;
+}
+.articleCardImg > a > img{
+width: 100%;
+height: 100%;
+}
+.articleCardContent{
+    padding-right: 15px;
+    width: 100%;
+
+}
+.articleCardTitle{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    min-height: 65px;
+}
+.articleCardDesc{
+    font-family: Cairo;
+    font-size: 1.25rem; 
+    font-weight: 500;
+    line-height: 1.7;
+    color: #767676;
+    width: 97%;
+    /* margin-bottom: 30px; */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 106px;
+
+    
+}
+.articleCardBtn{
+    all: unset;
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+    /* font-weight: 400; */
+    font-weight: 600;
+    cursor: pointer;
+    /* font-size: 13px; */
+    font-size: 16px;
+    /* color: #810400; */
+    color: black;
+    padding-bottom: 20px;
+    padding: 5px 25px;
+    border-radius: 7px;
+    transition: background-color 0.5s, color 0.4s;
+    }
+
+.articleCardBtn:hover{
+    background: #810400;
+    color: white;
+}
+
+    .articleCardBtn .moreIcon{
+        font-size: 10px;
+        margin-right: 10px;
+        display: none;
+    }

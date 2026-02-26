@@ -1,0 +1,105 @@
+.paginate ::selection{
+  background-color: transparent;
+}
+.paginate .page-link {
+    background-color: transparent !important;
+    color: #272727 !important;
+    border-radius: 7px !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 4px 10px !important;
+    font-size: 15px !important;
+    -webkit-border-radius: 7px !important;
+    -moz-border-radius: 7px !important;
+    -ms-border-radius: 7px !important;
+    -o-border-radius: 7px !important;
+    margin-left: 7px !important;
+}
+.paginate .page-link:hover {
+    background-color: #810400 !important;
+    color: white !important;
+    border: none !important;
+  }
+
+  .paginate .active .page-link{
+    background-color: #810400 !important;
+    color: #fff !important;
+   
+  }
+  .paginate{
+    margin: 0 !important;
+    text-align: center !important;
+    margin-top: 90px !important;
+    padding-bottom: 19px !important;
+  }
+  .pagination{
+    direction: rtl !important;
+
+  }
+ .paginate li{
+    list-style: none;
+    display: inline-block;
+  }
+.page-item.disabled .page-link{
+  background-color: transparent !important;
+  color: gray !important;
+  pointer-events: none !important;
+
+}
+.page-link_arrow_next {
+  position: relative;
+
+}
+.nextIcon,.prevIcon{
+  width: 20px;
+  
+}
+.nextIcon{
+margin-left: 5px;
+}
+.prevIcon{
+  margin-right: 7px;
+  
+  }
+.paginateGeneral .page-link_arrow_next  {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.pagination{
+  align-items: center !important;
+}
+@media only screen and (max-width: 662px) and (min-width: 0){
+  .pagination {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .paginate .page-link{
+    margin-left: 0 !important;
+  }
+  .paginate{
+    margin-top: 15px !important;
+
+  }
+  /* .paginateGeneral{
+    display: none !important;
+  }
+  .paginateRes{
+    display: block !important;
+  } */
+  @media (max-width: 667px) {
+    .nextText, .prevText {
+      display: none !important;
+    }
+  }
+}
+.pagination {
+  flex-direction: row-reverse;
+}
+.paginateRes .page-link {
+  margin: 0 !important;
+}
+.paginateGeneral .nextIcon{
+  left: 100px;
+}

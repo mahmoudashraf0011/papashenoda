@@ -1,0 +1,7 @@
+.soundsFavPage{
+    min-height: 60.8vh;
+
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+  }

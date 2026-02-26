@@ -1,0 +1,115 @@
+.forgetPassPage{
+    /* background: linear-gradient(180deg, rgba(255, 247, 230, 1) 0%, ,rgba(255, 245, 224, 1) 100%); */
+    background: linear-gradient(180deg,rgba(255, 247, 230, 1) 0%, #FFEDC5 52.5%, rgba(255, 247, 230, 1) 100%);
+    min-height: 900px ;
+
+}
+/* forgetBG */
+.forgetPassContent{
+/* margin-top: 5%; */
+text-align: center;
+background-image: url('../../../public/assets/forgetBG.png');
+background-repeat: repeat-y;
+background-size: auto; /* Ensure the image isn't stretched */
+height: auto; /* Ensure enough height for repetition */
+padding-bottom: 8px;
+padding-top: 115px;
+position: relative;
+
+}
+.forgetPassContentImg{
+    width: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.forgetPassContentImg > img{
+    width: 100%;
+}
+.forgetPassContentTitle{
+    margin-bottom: 20px;
+}
+.forgetPassContentDesc{
+    font-family: Tajawal;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.01em;
+text-align: center;
+
+}
+.forgetForm {
+    width: 37%;
+    margin:auto;
+    direction: rtl;
+    margin-top: 35px;
+    text-align: right;
+    
+}
+.forgetForm>label,.forgetForm>div>label{
+}
+.forgetForm > input,.forgetForm > button,.forgetForm > div> input,.forgetForm >div> button{
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border-radius: 12px ;
+    -webkit-border-radius: 12px ;
+    -moz-border-radius: 12px ;
+    -ms-border-radius: 12px ;
+    -o-border-radius: 12px ;
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 17px;
+    border: 1px solid #D4D7E3;
+}
+.forgetForm > input{
+    margin-bottom: 20px;
+    padding-bottom: 12px !important;
+}
+.forgetForm > button ,.forgetForm >div> button{
+    background-color: #001857;
+    color: #fff;
+    cursor: pointer;
+}
+.profileActive{
+    border: 1px solid #EA4335 !important;
+    background: #FAF3F3 !important;
+    color:#AD8888 !important;
+
+}
+.restField{
+    position: relative;
+    margin-bottom: 20px;
+}
+.passIcon{
+    position: absolute;
+    top: 45px;
+    left: 3%;
+    cursor: pointer;
+    font-weight: lighter;
+    color: gray;
+    width: 20px;
+    height: 20px;
+}
+.RestPage .messageInput{
+    display: block;
+    text-align: start;
+    /* margin-right: -100px; */
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+}
+.forgetPassPage .loading-dots{
+    width: 2%;
+}
+.backIcon{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    align-items: center ;
+    top: 20%;
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+}

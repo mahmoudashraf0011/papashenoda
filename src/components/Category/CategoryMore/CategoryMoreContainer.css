@@ -1,0 +1,74 @@
+.CategoryMoreContainer {
+  padding-top: 30px;
+}
+.CategoryMoreContainer .categoryBooksData > div > div > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+  direction: rtl;
+  justify-content: flex-start;
+  margin-bottom: 80px;
+}
+.CategoryMoreContainerTitle {
+  direction: rtl;
+  font-size: 40px;
+  margin-bottom: 19px;
+}
+.CategoryMoreContainer .categoryBooksData {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  direction: rtl;
+  justify-content: flex-start;
+}
+.CategoryMoreContainer .books-section-one-books-info {
+  direction: ltr;
+}
+.CategoryMoreContainer .sayingsWriteItems {
+  margin-bottom: 90px;
+}
+.CategoryMoreContainer
+  .sayingsWriteItems
+  .sayingWriteCard
+  .sayingWriteCardContent {
+  width: 100%;
+}
+.categoryDocsData {
+  direction: rtl;
+  margin-bottom: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.CategoryMoreContainer .visits-imgs-cont {
+  margin-top: 0;
+}
+
+.CategoryMoreContainer .books-section-one-books-1 {
+  margin-top: 0;
+}
+.CategoryMoreContainer .books-head-stand1 {
+  position: absolute;
+  top: 98%;
+  right: -40px;
+  width: 1450px;
+}
+
+/* //galaxy z fold */
+@media only screen and (min-width: 800px) and (max-width: 830px) {
+  .CategoryMoreContainer .books-section-one-books-info {
+    margin-right: 0% !important;
+    gap: 0px !important;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .CategoryMoreContainer .categoryBooksData .books-book {
+    width: 200px !important;
+  }
+  .CategoryMoreContainer .books-head-stand1 {
+    position: absolute;
+    top: 100%;
+    right: -40px;
+    width: 1190px;
+  }
+}

@@ -1,0 +1,65 @@
+@media only screen and (max-width: 662px) and (min-width: 0){
+    .soundsItems,.videos-videos-cont{
+        display: none !important;
+    }
+    .soundsItemsRes,.videos-videos-cont-Res{
+        display: flex !important;
+    }
+    .videos-videos-cont-Res{
+        padding-left: 20px !important;
+        height: 310px;
+    }
+    .SoundsCard .recentlySoundTitle{
+        margin: auto;
+    }
+    .profileBookMarkContainer {
+        width: 100% !important;
+    }
+    .profileBookMarkContainer   .paginate{
+        margin-top: 40px !important;
+    }
+    .profileBookMarkContainer .videos-videos-cont iframe{
+        pointer-events: all !important;
+       
+    }
+    .iframeContainer{
+        width: 100% !important;
+    }
+    .profileBookMarkContainerHeader{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .profileBookMarkContainerHeaderItem{
+        font-size: 14px !important;
+    }
+
+}
+
+@media only screen and (min-width: 662px) and (max-width: 1400px){
+    .profileBookMarkContainer{
+        height: auto !important;
+        width: 75% !important;
+    }
+    .profilePage .videos-videos-cont {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 30px;
+        width: 94% !important;
+        justify-content: flex-end;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px;
+    }
+    .profileSider {
+        padding-top: 50px;
+        background: #F9F9F9;
+        padding-right: 20px;
+        height: auto !important;
+    }
+    .profilePageItems {
+        display: flex ;
+        direction: rtl;
+        gap: 7px !important ;
+    }
+}

@@ -1,0 +1,64 @@
+.breadCrumbContainer{
+    background-color: #fff;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+ul.breadCrumb {
+    padding: 10px 0 !important;
+    list-style: none;
+    direction: rtl;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+    
+  }
+ul.breadCrumb li {
+    display: inline;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: normal ;
+    color: gray ;
+
+  }
+  
+   ul.breadCrumb li+li::after {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  } 
+  ul.breadCrumb li:first-child{
+    cursor: initial;
+    font-weight: bold;
+  }
+  
+  ul.breadCrumb li a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+ul.breadCrumb li:first-child a {
+  color: black !important;
+
+}
+  
+  ul.breadCrumb li:not(:first-child) a:hover {
+    color: black;
+  }
+  @media only screen and (max-width: 662px) and (min-width: 0){
+    ul.breadCrumb{
+      padding: 10px 0 !important;
+      list-style: none;
+      direction: rtl;
+      display: flex
+  ;
+      flex-direction: row-reverse;
+      justify-content: right;
+      flex-wrap: wrap-reverse;
+    }
+  }

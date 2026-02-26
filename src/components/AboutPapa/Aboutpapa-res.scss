@@ -1,0 +1,265 @@
+$width: 662px;
+$width2: 1050px;
+
+@media(max-width: #{$width}) {
+
+.aboutpapa{
+    margin-top: 0 !important;
+}
+
+    .aboutpapa-swipers-mains {
+        flex-direction: column;
+        padding-left: 20px !important;
+    }
+
+    .aboutpapa-date,
+    .aboutpapa-about,
+    #aboutpapa-swiper-small,
+    .aboutpapa-swiper-main2 {
+        display: none;
+    }
+
+    .aboutpapa-swiper-main {
+        width: 90px;
+        height: 115px;
+
+        .aboutpapa-swiper {
+            width: 90px;
+            height: 115px;
+        }
+
+
+    }
+
+    #aboutpapa-swiper-big {
+        width: 110px;
+        height: 157.86px;
+
+    }
+
+    .aboutpapa-about-res {
+        display: block;
+
+
+        letter-spacing: -0.01em;
+        color: #1A1A1A;
+        text-align: right;
+        border-right: 4px solid rgba(252, 195, 69, 1);
+        padding-right: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 1rem;
+
+    }
+
+    .aboutpapa-swiper-relative {
+        width: 85% !important;
+        margin-top: 30px;
+    }
+
+    .aboutpapa-right {
+        margin-right: 5px;
+        padding: 0;
+        margin-top: 30px;
+
+        flex-direction: column;
+    }
+
+    .aboutpapa-date-res {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        color: #98A0A2;
+        text-align: right;
+    }
+
+    .aboutpapa-about-ps2 {
+        width: auto;
+
+
+        line-height: 28.8px;
+
+        p {
+            font-size: 16px;
+
+        }
+
+    }
+
+    .aboutpapa-right .swiper-pagination-fraction,
+    .aboutpapa-right .swiper-pagination-custom,
+    .aboutpapa-right .swiper-horizontal>.swiper-pagination-bullets,
+    .aboutpapa-right .swiper-pagination-bullets.swiper-pagination-horizontal {
+        gap: 70px;
+        margin-top: 0;
+    }
+
+    .aboutpapa-right .swiper-pagination-fraction::before,
+    .aboutpapa-right .swiper-pagination-custom::before,
+    .aboutpapa-right .swiper-horizontal>.swiper-pagination-bullets::before,
+    .aboutpapa-right .swiper-pagination-bullets.swiper-pagination-horizontal::before {
+
+        height: 100%;
+
+    }
+
+    .aboutpapa-btns {
+        bottom: 30px;
+    }
+
+    .aboutpapa-more {
+        color: #810400;
+        background-color: transparent !important;
+        box-shadow: none;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: 10px;
+    }
+
+    .aboutpapa-rightsection {
+        padding-left: 0.75rem;
+    }
+}
+
+
+
+@media(min-width:#{$width}) and (max-width:#{$width2}) {
+
+    .aboutpapa-swipers-mains {
+        flex-direction: column;
+    }
+
+    .aboutpapa-date,
+    .aboutpapa-about
+   
+     {
+        display: none;
+    }
+
+    .aboutpapa-swiper-main {
+        width: 150px;
+        height: 200px;
+
+        .aboutpapa-swiper {
+            width:150px;
+            height: 200px;
+        }
+
+
+    }
+    .aboutpapa-swiper-main2{
+        width: 80px !important;
+        height: 200px;
+    }
+#aboutpapa-swiper-small{
+    width: 80px;
+    height: 200px;
+}
+    #aboutpapa-swiper-big {
+        width: 200px;
+        height: 250px;
+
+    }
+
+    .aboutpapa-about-res {
+        display: block;
+
+
+        letter-spacing: -0.01em;
+        color: #1A1A1A;
+        text-align: right;
+        border-right: 4px solid rgba(252, 195, 69, 1);
+        padding-right: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 1rem;
+
+    }
+
+    .aboutpapa-swiper-relative {
+        width: 85% !important;
+        margin-top: 30px;
+    }
+
+    .aboutpapa-right {
+        margin-right: 5px;
+        padding: 0;
+        margin-top: 30px;
+
+        flex-direction: column;
+    }
+
+    .aboutpapa-date-res {
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        color: #98A0A2;
+        text-align: right;
+    }
+
+    .aboutpapa-about-ps2 {
+        width: auto;
+
+
+        line-height: 28.8px;
+
+        p {
+            font-size: 16px;
+
+        }
+
+    }
+
+    .aboutpapa-right .swiper-pagination-fraction,
+    .aboutpapa-right .swiper-pagination-custom,
+    .aboutpapa-right .swiper-horizontal>.swiper-pagination-bullets,
+    .aboutpapa-right .swiper-pagination-bullets.swiper-pagination-horizontal {
+        gap: 70px;
+        margin-top: 0;
+    }
+
+    .aboutpapa-right .swiper-pagination-fraction::before,
+    .aboutpapa-right .swiper-pagination-custom::before,
+    .aboutpapa-right .swiper-horizontal>.swiper-pagination-bullets::before,
+    .aboutpapa-right .swiper-pagination-bullets.swiper-pagination-horizontal::before {
+
+        height: 100%;
+
+    }
+
+    .aboutpapa-btns {
+        bottom: 30px;
+    }
+
+    .aboutpapa-more {
+        color: #810400;
+        background-color: transparent !important;
+        box-shadow: none;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: 10px;
+    }
+
+    .aboutpapa-rightsection {
+        padding-left: 0.75rem;
+    }
+}
+
+
+// @media (max-width: #{$width2}) {
+//     .aboutpapa-swiper-relative{
+//         width: 95% !important;
+//     }
+//     .aboutpapa-about-ps2 p{
+//         font-size:14px !important;
+//     }
+//     .aboutpapa-about-ps2{
+//         width:auto !important;
+//     }
+// }

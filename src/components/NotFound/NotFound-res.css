@@ -1,0 +1,50 @@
+@media (max-width: 662px) {
+  .notfound {
+    margin-top: 0 !important;
+    background-color: #F8F3ED !important;
+    height: 196vh !important;
+  }
+  .notfound-img {
+    margin-top: 20px;
+    width: 320px;
+    height: 180px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .notfound-noresult {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .notfound-return {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .notfound-return .notfound-main {
+    color: #1A1A1A;
+    text-decoration: underline;
+  }
+}
+@media (min-width: 662px) and (max-width: 1050px) {
+  .notfound-img {
+    margin-top: 20px;
+    width: 500px;
+    height: 180px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .notfound {
+    height: 500px;
+  }
+  .notfound-noresult {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .notfound-return {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .notfound-return .notfound-main {
+    color: #1A1A1A;
+    text-decoration: underline;
+  }
+}/*# sourceMappingURL=NotFound-res.css.map */

@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /subdirectory
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /index.html [L]
+RewriteCond %{HTTP_HOST} ^popeshenouda\.com [NC]
+RewriteRule ^(.*)$ https://www.popeshenouda.com/$1 [L,R=301]
+</IfModule>

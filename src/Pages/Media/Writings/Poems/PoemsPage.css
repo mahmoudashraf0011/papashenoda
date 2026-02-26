@@ -1,0 +1,22 @@
+.poemsPage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 196px; */
+    /* padding-top: 43px; */
+    padding-bottom: 1px;
+    min-height: 65.8vh;
+
+
+}
+.poemsPage  .mediaHeader{
+    margin-top: 50px !important;
+}
+.paginate{
+    background-color: transparent !important;
+}
+.paginateContainer{
+  margin-left: 50px;
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+}

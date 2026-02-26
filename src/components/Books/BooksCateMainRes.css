@@ -1,0 +1,8 @@
+@media (max-width: 662px) {
+  .books-section-one-books-info{
+    margin-right: 10% !important;
+  }
+  .cateBook .books-section-one-info{
+    margin-top: -2% !important;
+  }
+}

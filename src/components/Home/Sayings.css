@@ -1,0 +1,185 @@
+.sayings > .sectionHeaderTitle > span{
+    font-weight: bold  !important;
+    color: #000 !important;
+    letter-spacing: 1px;
+}
+
+.sayings{
+    position: relative;
+    z-index: 1;
+}
+
+.SwiperSlide{
+    position: relative;
+    width: 100%;
+    height: 470px;
+
+}
+
+.SwiperSlide > div{
+    position: absolute;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+}
+.SwiperSlide > div.one{
+    top: 0;
+    width: 55%;
+    left: 5%;
+    opacity: 0.6;
+
+
+}
+.SwiperSlide > div.two{
+    top: 30px;
+    width: 60%;
+    left: 2%;
+    opacity: 0.7;
+
+}
+.SwiperSlide > div.three{
+    top: 60px;
+    width: 65%;
+    height: 81%;
+
+
+}
+.sliderItems{
+    display: flex;
+    padding: 10px 100px;
+}
+.sliderBg{
+    width: 23%;
+    height: 100%;
+    position: absolute;
+    top:25px;
+    right: 50px;
+    z-index: 20;
+
+}
+.sliderBg > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 160px;
+    -webkit-border-radius: 160px;
+    -moz-border-radius: 160px;
+    -ms-border-radius: 160px;
+    -o-border-radius: 160px;
+    position: absolute;
+    z-index: 20;
+
+}
+.sliderContent{
+    text-align: right;
+    margin-right: 100px;
+    width: 100%;
+
+
+
+}
+.sliderContent > h2{
+    color: #810400;
+    margin-bottom: 70px;
+    margin-right: 130px;
+    text-align: right !important;
+    margin-top: 25px;
+
+}
+.sliderContentDesc{
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 80%;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    height: 87px;
+    overflow-x: auto;
+}
+.sliderContentDesc::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+img.quote{
+    position: absolute;
+}
+img.quote.q1{
+    right: 30%;
+    top: 83px;
+}
+img.quote.q2{
+    left: 10%;
+    top: 58%;
+
+}
+.sliderContent .sign{
+    display: block;
+    text-align: left;
+    width: 120px;
+    margin-top: -40px;
+}
+
+.sayingsMore{
+    border: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 46%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0;
+}
+.sayings .more_btn{
+margin-top: 0 ;
+}
+.arrows{
+    cursor: pointer;
+    z-index: 1000;
+    position: absolute;
+    
+   }
+   .arrow-back{
+       top: 60%;
+       left: 10%;
+       z-index: 150;
+   
+}
+   .arrow-front{
+       top: 60%;
+       right: 9%;
+       z-index: 150;
+
+    
+   
+   }
+
+ .arrow > img{
+       cursor: pointer;
+       height: 100%;
+       width: 100%;
+   }
+   .arrow-back, .arrow-front {
+    transition: opacity 0.3s ease;
+  }
+  
+  .arrow-back.disabled,
+  .arrow-front.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .Home .Toastify__toast-container{
+    top: 200px;
+  }
+

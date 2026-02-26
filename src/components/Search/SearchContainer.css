@@ -1,0 +1,89 @@
+.searchContainer {
+  padding-top: 30px;
+}
+.notFound {
+  text-align: center;
+  padding-bottom: 367px;
+}
+.searchContainer .sayingsWriteItems {
+  margin-bottom: 90px;
+}
+.searchContainer .sayingsWriteItems {
+  margin-bottom: 90px;
+}
+.searchContainer .sayingsWriteItems .sayingWriteCard .sayingWriteCardContent {
+  width: 100%;
+}
+.searchContainer .sayingWriteCardImg {
+  width: 37%;
+  height: 90%;
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  z-index: 20;
+}
+.categoryBooksData {
+  margin-bottom: 50px !important;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: flex-end;
+}
+
+.CategoryMoreContainer .categoryBooksData .books-book,
+.categoryContainer .categoryBooksData .books-book,
+.searchMoreContainer .categoryBooksData .books-book {
+  width: 177px !important;
+  height: 247px;
+  object-fit: contain;
+  z-index: 10;
+}
+.categoryBooksData {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  direction: rtl;
+  justify-content: flex-start;
+}
+.categoryBooksData .books-section-one-books-info {
+  direction: ltr;
+}
+.searchContainer .categoryRow .books-section-one-books-info > img {
+  width: 50%;
+}
+
+.categoryDocsData {
+  direction: rtl;
+  margin-bottom: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.categoryGalleryData {
+  justify-content: flex-start;
+}
+.countResult {
+  text-align: right;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-family: Tajawal;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: -0.01em;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.countResult > span {
+  font-weight: bold;
+  margin-right: 4px;
+  font-size: 28px;
+}
+
+.parent-container-download {
+  display: flex;
+  justify-content: flex-end; /* Moves button to the right */
+  width: 82%;
+  margin: 20px auto;
+}
+.CategoryVisitOverlayOutside .visits-swiper-left {
+  display: block;
+  margin-left: 4%;
+}

@@ -1,0 +1,28 @@
+.searchMorePage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 196px; */
+
+
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+  }
+  .searchMorePage .mediaFiltertion{
+    margin: 0;
+  }
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+  .books-section-one-books-info {
+    margin-right: -10% !important;
+    gap: 0px;
+  }
+  .searchContainer .books-section-one-info{
+    margin-top: -5% !important;
+    margin-right: 5px;
+    width: 200px;
+  }
+  .searchContainer .books-section-one-save2{
+    height: 73px;
+  }
+}

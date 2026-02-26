@@ -1,0 +1,44 @@
+.writingsBG{
+    background-image: url('../../../../public/assets/media/writings/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.writingsBG > div{
+position: absolute;
+    width: 13%;
+}
+.bookBG{
+    bottom: -2px;
+    left: 10px;
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+}
+.bookBG > img{
+    object-fit: cover;
+}
+.handBG {
+    bottom: -2px;
+    left: 60%;
+    width: 39% !important;
+}
+.writingsBG > div > img{
+    width: 100%;
+    height: 100%;
+}
+.writingsBGTitle{
+    position: absolute;
+    top: 27%;
+    left: 39%;
+    color: #810400;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+
+}

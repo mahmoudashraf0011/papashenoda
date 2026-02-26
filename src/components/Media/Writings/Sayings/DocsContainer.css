@@ -1,0 +1,106 @@
+
+.docsContainer .mediaHeader  {
+    margin-top: 50px !important;
+
+}
+.docsNotesContainer > .mediaHeader{
+    margin-top: 20px;
+}
+.docsContainer .mediaFiltertion{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.p-multiselect-items .p-multiselect-item {
+    word-break: break-word; /* Break long words */
+    white-space: normal;    /* Allow wrapping */
+    max-width: 250px;       /* Optional: limit width */
+  }
+.docsItems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 35px;
+    margin-bottom: 50px;
+    direction: rtl;
+
+}
+.docsCardImg > img {
+
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 4px 8px 0px #0000001F;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+
+
+}
+.overlayDocsImg{
+    width: 500px;
+    height: 500px;
+    margin: 7% auto;
+}
+.overlayDocsImg > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+  
+}
+.overlayDocsImgCate{
+    text-align: center;
+    margin-top: 35px;
+}
+.overlayDocsContent{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.docs-arrow{
+    background-color: gray;
+    padding: 10px 10px 3px 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+.docs-arrow.disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+.visits-overlay-cancel{
+    position: absolute;
+    top: 35px;
+    right:0px;
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    cursor: pointer;
+    z-index: 10;
+}
+.zoomable {
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+  }
+  
+  .zoomable.zoomed {
+    transform: scale(1.2);
+    cursor: zoom-out;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+body {
+    overflow-x: hidden !important; /* Prevent horizontal scrolling */
+}
+
+
+
+

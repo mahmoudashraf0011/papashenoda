@@ -1,0 +1,37 @@
+@media (max-width: 662px) {
+  .about {
+    margin-top: 0 !important;
+  }
+  .about-img {
+    height: 120px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  .about-infos {
+    padding: 1rem;
+  }
+  .about-about, .about-about2 {
+    font-size: 25px;
+  }
+  .about-about-ps p,
+  .about-about-ps2 p {
+    font-size: 19px;
+    padding-right: 0.5rem;
+  }
+  .about-about::before {
+    width: 4px;
+  }
+}
+@media (min-width: 662px) and (max-width: 1050px) {
+  .about-infos {
+    padding: 1rem 3rem;
+  }
+  .about-about, .about-about2 {
+    font-size: 30px;
+  }
+  .about-about-ps p,
+  .about-about-ps2 p {
+    font-size: 22px;
+    padding-right: 0.5rem;
+  }
+}/*# sourceMappingURL=About-res.css.map */

@@ -1,0 +1,27 @@
+.writingsPage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 195px; */
+    min-height: 65.8vh;
+ 
+}
+
+.writingsPage > .mediaHeader > .Container > .headerContent .media_more_btn,.writingsPage .media_more_btn_res{
+    display: none !important;
+}
+
+.writingsPage .headerContent {
+    justify-content: flex-end !important;
+}
+.writingsPage  .mediaHeader{
+    margin-top: 60px;
+}
+.writingsPage .media_more_btn{
+    display: none;
+}
+.writingsPage .videos-filter-info{
+    margin-bottom: 5px !important;
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+}

@@ -1,0 +1,157 @@
+.categoryResult{
+    text-align: right;
+    font-size: 30px;
+    font-weight: normal;
+    direction: rtl;
+
+
+}
+.categoryResult > h2{
+font-size: 35px;
+padding-top: 30px;
+
+}
+.categoryResult > p{
+    font-size: 25px;
+}
+.categoryResult > p > span{
+    font-weight: bold;
+}
+.categoryResult > span{
+    font-weight: bold;
+}
+.virtuesPage .videos-filter-info{
+    padding-top: 10px;
+    margin-bottom: 80px;
+}
+.categoryFilter .videos-filter-p {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+    color: #1C2327;
+    
+
+}
+.categoryFilter .videos-filter-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+}
+.categoryFilter .videos-filter-info .filterRight,.categoryFilter .videos-filter-info .filterLeft {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    direction: ltr;
+    margin-top: 25px;
+
+}
+.categoryFilter .videos-filter-info .filterLeft{
+    margin-left: 130px;
+}
+.categoryFilter .videos-filter-info .p-dropdown {
+    background: #FFFFFF;
+    box-shadow: none;
+    gap: 70px;
+    padding: .5rem 1.25rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.categoryFilter .videos-filter-info .p-dropdown .p-dropdown-label.p-placeholder {
+    color: #1A1A1A;
+
+}
+
+.categoryFilter .videos-filter-info .happen-year input {
+    background: #F8F3ED;
+}
+
+.categoryFilter .videos-filter-info .p-overlaypanel {
+    width: 185px;
+    border-radius: 0 0 10px 10px;
+
+
+}
+
+.categoryFilter .videos-filter-info .p-overlaypanel::after {
+    content: none;
+}
+.categoryFilter .videos-filter-info .p-overlaypanel-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.categoryFilter .videos-filter-info .p-overlaypanel {
+    z-index: 1000;
+    /* Add higher z-index if necessary */
+}
+
+.categoryFilter .videos-filter-info .videos-search {
+    background: #810400;
+    padding: .5rem .75rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;cursor: pointer;
+
+
+}
+.categoryFilter .videos-filter-info .videos-search img {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+}
+
+.categoryFilter .videos-filter-info .videos-overlay-p {
+    text-align: center;
+}
+.categoryFilter .videos-filter-info .p-dropdown-item{
+    justify-content: flex-end;
+}
+
+.categoryFilter .videos-filter-info .custom-menu .custom-dropdown-content {
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 205px;
+    /* Adjust to fit your layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.categoryFilter .videos-filter-info .p-button {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+    color: #1A1A1A;
+    gap: 115px;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    height: 38px;
+    padding: 0.5rem 1.25rem;
+
+}
+.categoryFilter .videos-filter-info .p-button img{
+    width: 21px;
+    height: 12px;
+    object-fit: contain;
+    
+}
+
+.categoryFilter .videos-filter-info .video-year {
+    width: 90px;
+
+}
+.categoryFilter .videos-filter-info .video-year  input{
+    padding: .2rem ;
+    border-radius: 10px;
+}
+.categoryFilter .videos-filter-info .soundsFavContainer .videos-filter-info{
+    margin-right: 0;
+}

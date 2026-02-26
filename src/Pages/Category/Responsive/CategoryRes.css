@@ -1,0 +1,784 @@
+/* galaxy z fold */
+@media only screen and (min-width: 650px) and (max-width: 690px) {
+  .categoryRow .docsItems {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+
+@media only screen and (max-width: 1150px) and (min-width: 662px) {
+  /* header */
+  .categoryResult > h2 {
+    font-size: 20px !important;
+    padding-top: 20px;
+  }
+
+  .categoryHeaderTitle {
+    font-size: 24px !important;
+  }
+
+  /* books */
+  .categoryRow .categoryBooksData {
+    gap: 30px !important;
+  }
+  .books-book {
+    width: 200px !important;
+    margin-right: 15px;
+  }
+  .categoryBooksData {
+    display: none !important;
+  }
+  .categoryBooksDataResIpad {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .categoryBooksDataMoreResIpad {
+    display: block !important;
+  }
+  .categoryBooksDataMoreResIpad .items {
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 40px;
+  }
+  .categoryBooksDataMoreResIpad .books-head-stand1 {
+    position: absolute;
+    top: 102% !important;
+    right: 0 !important;
+    width: 100% !important;
+  }
+  .categoryRow .more_btn {
+    display: none;
+  }
+  .categoryArticles .media_more_btn_res {
+    display: block !important;
+  }
+  /* .books-head-stand2{
+        top: 75% !important
+    } */
+
+  /* videos */
+  .categoryVideoData {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .categoryVideoCard iframe {
+    width: 100% !important;
+    height: 250px;
+  }
+  .categoryVideoCardDesc {
+    width: 100% !important;
+  }
+  .categoryVideoCard > div {
+    width: 100% !important;
+  }
+
+  /* questions */
+  .categoryRow .questionCardQues {
+    font-weight: bold;
+    width: 650px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit text to two lines */
+    -webkit-box-orient: vertical;
+    max-height: 3em;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .categoryRow .questionCardQues::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* docs */
+  .categoryRow .docsItems {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* sound */
+  .categoryRow .audio-control-button2 {
+    left: 20%;
+  }
+  .categoryRow .audio-control-button {
+    right: 20%;
+  }
+  .searchParent {
+    top: 51% !important;
+  }
+  .searchFilter_right {
+    width: 50% !important;
+  }
+  .multi-select-container {
+    width: 100% !important;
+  }
+  .searchParent .dropdown-list {
+    max-height: 149px !important;
+  }
+  .visits-img-re {
+    width: 45%;
+  }
+}
+
+
+@media only screen and (max-width: 1150px) and (min-width: 662px){
+  .CategoryMoreContainer .categoryBooksDataMoreResIpad .items{
+    justify-content: flex-start !important;
+    margin-bottom: 0px !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 662px) and (min-width: 0) {
+  .searchContainer .categoryRow .book-links {
+        /* margin-top: 50%; */
+    }
+  .categoryMorePage .media_more_btn_res {
+    display: none !important;
+  }
+  /* header */
+  .virtuesPage {
+    background: #f8f3ed;
+    color: black;
+    margin-top: 0 !important;
+    min-height: 60.8vh;
+  }
+  .swiper-pagination {
+    direction: rtl !important;
+  }
+  .categoryMorePage {
+    margin-top: 0 !important;
+  }
+  .categoryResult > h2 {
+    font-size: 20px !important;
+    padding-top: 20px;
+  }
+
+  .categoryHeaderTitle {
+    font-size: 24px !important;
+  }
+  .categoryRow .more_btn {
+    display: none;
+  }
+  .categoryArticles .media_more_btn_res {
+    display: block !important;
+  }
+  .categoryRow {
+    padding-bottom: 10px !important;
+  }
+  .categoryHeaderTitle::after {
+    position: absolute;
+    content: "";
+    height: 70%;
+    top: 0px !important;
+    right: 0;
+    border: 3px solid #fcc345;
+  }
+
+  /* sayingsWrite */
+  .categoryArticles .categoryRow .sayingsWriteItems {
+    display: none !important;
+  }
+  .categoryArticles .categoryRow .sayingsWriteItemsCateRes {
+    display: block !important;
+  }
+  .categoryRow .sayingWriteCard {
+    /* height: 240px !important; */
+  }
+  .sayingWriteCardSign {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .categoryRow .sayingWriteCardImg {
+    width: 35%;
+    height: 200px !important;
+    position: absolute;
+    top: 35px;
+    right: 8px !important;
+    z-index: 20;
+  }
+  .categoryRow .sayingWriteCardContent {
+    background-color: #fff;
+    padding-right: 45%;
+    text-align: right;
+    padding-top: 4%;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 0px 4px 8px 0px #0000001f;
+    width: 100%;
+  }
+  .categoryRow .sayingWriteCardDesc {
+    font-family: Tajawal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5 !important;
+    width: 90%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    float: right !important;
+  }
+
+  .categoryRow .signQuote {
+    width: 30px;
+    margin-bottom: 5px;
+  }
+
+  .categoryRow .sayingWriteCardSignName {
+    font-family: Tajawal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: right;
+    margin-bottom: 1px;
+    height: 101px;
+  }
+
+  .categoryRow .sayingWriteCardCategory {
+    font-family: Tajawal;
+    font-size: 14px !important;
+    font-weight: 500;
+    line-height: 8.8px;
+    text-align: center;
+    color: #810400;
+  }
+
+  .categoryArticles .categoryRow .sayingsWriteItemsCateRes .swiper-pagination {
+    position: initial !important;
+    margin-top: 30px !important;
+  }
+  .categoryArticles .categoryRow .swiper-pagination-bullet {
+    background: rgba(118, 118, 118, 1) !important;
+  }
+  .categoryArticles .categoryRow .swiper-pagination-bullet-active {
+    background: rgba(252, 195, 69, 1) !important;
+    width: 50px !important;
+    border-radius: 15px !important;
+  }
+  .CategoryMoreContainer .categoryRow .sayingsWriteItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 15px !important;
+  }
+  .sayingWriteCardSign {
+    display: block !important;
+  }
+  .sayingWriteCardSignImg {
+    margin-right: 70% !important;
+    width: 50px !important;
+  }
+  .overlayCard.shareCard,
+  .overlayCardSign {
+    direction: rtl !important;
+  }
+
+  /* books */
+
+  .categoryArticles .categoryBooksData {
+    display: none !important;
+  }
+  .categoryArticles .categoryBooksDataCateRes {
+    display: block !important;
+    margin-bottom: 70px;
+  }
+  .categoryArticles .categoryBooksDataCateRes .swiper-pagination {
+    position: initial !important;
+    margin-top: 80px !important;
+  }
+  .categoryRow .books-head-stand2 {
+    right: 6px !important;
+    width: 123% !important;
+  }
+
+  .books-head-stand2 {
+    bottom: -50px !important;
+  }
+  .categoryArticles .books-book {
+    height: auto !important;
+    width: 130px !important;
+  }
+  .categoryRow .book-links {
+    /* flex-direction: row !important;
+    gap: 0 !important; */
+  }
+  .categoryContainer .categoryRow .books-section-one-books-info {
+    gap: 10px !important;
+  }
+  .categoryArticles .cateBook .categoryHeader {
+    margin-bottom: 0 !important;
+  }
+  .CategoryMoreContainer .categoryBooksData {
+    display: none !important;
+  }
+  .CategoryMoreContainer .categoryBooksDataMoreResIpad {
+    display: none !important;
+  }
+  .CategoryMoreContainer .categoryBooksDataMoreResPhone {
+    display: block !important;
+  }
+
+  .CategoryMoreContainer
+    .categoryBooksDataMoreResPhone
+    .books-section-one-books-info,
+  .categoryArticles .books-section-one-books-info {
+    direction: ltr !important;
+  }
+  .categoryRow .books-book {
+    height: 200px !important;
+  }
+  .categoryRow .books-head-stand2 {
+    right: -13px !important;
+    width: 123% !important;
+  }
+
+  .categoryRow .books-head-stand3 {
+    right: 6px !important;
+    width: 105% !important;
+  }
+  .CategoryMoreContainer .books-head-stand1 {
+    height: 96px !important;
+    position: absolute;
+    top: 90%;
+    right: 0 !important;
+    width: 100% !important;
+  }
+  .categoryBooksDataMoreResPhone .items {
+    margin-bottom: 72px !important;
+  }
+
+  /* sayings photo*/
+  .categoryArticles .categoryRow .sayingsPhotoItems {
+    display: none !important;
+  }
+  .categoryArticles .categoryRow .sayingsPhotoItemsCateRes {
+    display: block !important;
+  }
+  .categoryArticles .categoryRow .sayingsPhotoItemsCateRes .swiper-pagination {
+    position: initial !important;
+    margin-top: 30px !important;
+  }
+  .categoryRow .sayingsPhotoCardImg {
+    width: 100%;
+    height: 250px;
+  }
+
+  .CategoryMoreContainer .categoryPhotoSayingsData {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* gallery */
+  .categoryArticles .categoryRow .categoryGalleryData {
+    display: none !important;
+  }
+  .categoryArticles .categoryRow .categoryGalleryDataResCate {
+    display: block !important;
+  }
+  .categoryArticles
+    .categoryRow
+    .categoryGalleryDataResCate
+    .swiper-pagination {
+    position: initial !important;
+    margin-top: 30px !important;
+  }
+  .categoryArticles .categoryRow .visits-swiper {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .visits-visits {
+    display: block !important;
+  }
+  .cateOverlay {
+    display: none !important;
+  }
+  .cateOverlayRes {
+    display: block !important;
+  }
+
+  /* articles */
+  .categoryArticles .categoryRow .articleItems {
+    display: none !important;
+  }
+  .categoryArticles .categoryRow .categoryArticleDataResCate {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row-reverse;
+  }
+  .categoryRow .categoryArticleDataResCate {
+    direction: rtl;
+    margin-bottom: 20px !important;
+  }
+  .categoryRow .articleCardBtn .moreIcon {
+    margin-right: 5px !important;
+  }
+  .categoryRow .articleCard {
+    width: 95% !important;
+    /* margin: 0 !important; */
+    height: 250px;
+  }
+  .categoryRow .categoryArticleDataResCate .swiper-slide {
+    margin-right: 0 !important;
+  }
+  .categoryRow .categoryArticleDataResCate .swiper-pagination {
+    position: inherit !important;
+    margin-top: 13px !important;
+  }
+  .categoryRow .articleCardTitle {
+    font-size: 15px !important;
+    min-height: 50px !important;
+    width: 100% !important;
+  }
+  .categoryRow .articleCardDesc {
+    font-size: 14px !important;
+    height: 70px !important;
+    margin-bottom: 20px !important;
+    /* font-family: Cairo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #767676;
+    width: 97%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    height: auto !important; */
+  }
+  .categoryRow .articleCardBtn {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 0 !important;
+  }
+  .CategoryMoreContainer .categoryArticleData {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* poems */
+  .categoryArticles .categoryRow .categoryPoemsData {
+    display: none !important;
+  }
+  .categoryArticles .categoryRow .categoryPoemsDataResCate {
+    display: block !important;
+  }
+  .categoryArticles .categoryRow .categoryPoemsDataResCate .swiper-pagination {
+    position: initial !important;
+    margin-top: 20px !important;
+  }
+  .categoryRow .poemsCardDesc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    min-height: 60px;
+  }
+  .categoryArticles .categoryRow .categoryPoemsDataResCate .articleCardBtn {
+    gap: 0 !important;
+  }
+  .categoryArticles .categoryRow .categoryPoemsDataResCate .categoryRow {
+    margin-bottom: 5px !important;
+  }
+  .categoryArticles .categoryRow .PoemsItems {
+    margin-bottom: 0 !important;
+  }
+  .CategoryMoreContainer .categoryRow .PoemsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* vidoes */
+  .categoryArticles .categoryRow .categoryVideoDataRes {
+    display: block !important;
+  }
+  .categoryArticles .categoryRow .categoryVideoData {
+    display: none !important;
+  }
+  .categoryArticles .categoryRow .categoryVideoDataRes .swiper-pagination {
+    position: initial !important;
+    margin-top: 20px !important;
+  }
+  .categoryArticles .categoryRow .categoryVideoCardDesc {
+    text-align: right !important;
+  }
+  .CategoryMoreContainer .categoryVideoData {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .CategoryMoreContainer .categoryVideoCard iframe {
+    max-width: 100% !important;
+  }
+  .CategoryMoreContainer .categoryVideoCardDesc {
+    width: 100% !important;
+  }
+  .categoryVideoCard > div {
+    width: 100% !important;
+  }
+
+  /* questions */
+  .categoryRow .questionCardQues {
+    font-weight: bold;
+    width: 90%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit text to two lines */
+    -webkit-box-orient: vertical;
+    text-align: right !important;
+    padding-right: 10px !important;
+    font-size: 16px !important;
+  }
+  .questionCardQues.expanded {
+    height: 100px;
+    overflow: scroll;
+    display: initial;
+  }
+  .questionCardQues.expanded::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  .categoryArticles .categoryRow .categoryQuestionsDataRes {
+    display: block !important;
+  }
+  .categoryArticles .categoryRow .categoryQuestionsData {
+    display: none !important;
+  }
+  .categoryRow .questionCard {
+    margin-bottom: 0 !important;
+    padding-left: 1px !important;
+  }
+  .categoryRow .swiper-pagination {
+    position: initial !important;
+    margin-top: 20px !important;
+  }
+  .categoryRow .questionCardDropdown > p {
+    font-family: "Tajawal";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38.4px;
+    width: 73%;
+    padding: 30px 53px 30px 0;
+    height: 150px;
+    overflow-y: hidden;
+    direction: rtl;
+  }
+  /* Docs */
+
+  .categoryArticles .categoryRow .categoryDocsData {
+    display: none !important;
+  }
+  .categoryArticles .categoryRow .categoryDocsDataRes {
+    display: flex !important;
+  }
+  .categoryRow .categoryDocsDataRes .swiper-pagination {
+    position: inherit !important;
+    margin-top: 13px !important;
+  }
+  .categoryRow .docsCardImg {
+    text-align: center !important;
+  }
+  .categoryRow .docsCardImg > img {
+    height: 100% !important;
+    width: 90% !important;
+    position: absolute;
+    object-fit: contain;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: none !important;
+  }
+  .categoryRow .docsItems {
+    margin-bottom: 0 !important;
+  }
+  .categoryRow .overlayDocsImg {
+    width: 100%;
+    height: 100%;
+    margin: 10% auto 0 auto;
+  }
+
+  .categoryRow .overlayDocsImg {
+    width: 100% !important;
+    min-height: 300px;
+  }
+  .categoryRow .visits-overlay-cancel {
+    top: 20px !important;
+  }
+  .categoryRow .overlay {
+    /* top: 56px !important; */
+    z-index: 2000 !important;
+  }
+
+  .categoryRow .zoomable.zoomed {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  .CategoryMoreContainer .categoryRow .docsItems {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cateOverlay {
+    display: none !important;
+  }
+  .CategoryMoreContainer .cateOverlay {
+    display: none !important;
+  }
+  .categoryArticles .overlayDocsContent,
+  .searchPage .overlayDocsContent {
+    direction: ltr;
+  }
+  .categoryArticles .cateOverlayRes {
+    display: block !important;
+  }
+  .categoryArticles .cateOverlayRes .visits-swiper {
+    display: flex !important;
+  }
+  .CategoryMoreContainer .categoryRow #text {
+  }
+  .categoryArticles .categoryRow #text {
+  }
+
+  .CategoryMoreContainer .cateOverlayRes .visits-swiper {
+    flex-direction: column !important;
+  }
+  .CategoryMoreContainer .visits-front,
+  .CategoryMoreContainer .visits-back {
+    top: 42% !important;
+  }
+  .categoryArticles .visits-front,
+  .categoryArticles .visits-back {
+    top: 42% !important;
+  }
+  .categoryArticles .visits-front,
+  .CategoryMoreContainer .visits-front {
+    right: 5% !important;
+  }
+  .categoryArticles .visits-back,
+  .CategoryMoreContainer .visits-back {
+    left: 5% !important;
+  }
+  /* sound */
+  .categoryArticles .categoryRow .categorySoundDataRes {
+    display: block !important;
+  }
+  .categoryArticles .categoryRow .categorySoundData {
+    display: none !important;
+  }
+  .categoryArticles .categoryRow .categorySoundDataRes .swiper-pagination {
+    position: inherit !important;
+    margin-top: 40px !important;
+  }
+  .categoryRow .categorySoundCardHead {
+    text-align: right !important;
+  }
+  .CategoryMoreContainer .categorySoundData {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* .categoryRow .audio-control-button2{
+    all: unset;
+    position: relative;
+
+    right: 70%;
+}
+.categoryRow .audio-control-button{
+    all: unset;
+    position: relative;
+
+    right: 180%;
+
+} */
+  .audio-control-button {
+    right: 25% !important;
+  }
+  .audio-control-button2 {
+    left: 25% !important;
+  }
+  .rhap_container {
+    direction: rtl !important;
+  }
+  .categoryVideoCard iframe {
+    height: 150px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .categoryContainer .books-section-one-save2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .categoryContainer .books-section-one-info span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100px;
+  }
+}
+
+
+@media only screen and (max-width: 1368px) and (min-width: 663px) {
+  .categoryRow .sayingWriteCardImg {
+    width: 37%;
+    height: 76% !important;
+    position: absolute;
+    top: 60px;
+    right: 20px !important;
+    z-index: 20;
+  }
+  .categoryMorePage {
+    background: #f8f3ed;
+    color: black;
+    min-height: 55.8vh !important;
+  }
+  .categoryRow .categoryPoemsData,
+  .categoryRow .categoryVideoData,
+  .categoryRow .questionsItems,
+  .categoryRow .categorySoundData,
+  .categoryRow .sayingsWriteItems,
+  .categoryRow .sayingsPhotoItems,
+  .categoryRow .categoryArticleData {
+    margin-bottom: 30px !important;
+    /* min-height: 26vh; */
+  }
+  .articleCardDesc {
+    font-family: Cairo;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #767676;
+    width: 97%;
+    /* margin-bottom: 30px; */
+    display: -webkit-box;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 14px !important;
+    height: 63px !important;
+  }
+  .categoryVideoCard iframe {
+    height: 150px !important;
+  }
+  .categorySoundCard {
+    height: 140px;
+  }
+  .categorySoundCardImg {
+    height: 130px;
+  }
+  .categorySoundCardImg > img {
+    height: 100%;
+  }
+  .categoryRow {
+    padding-bottom: 15px !important;
+  }
+  .categoryRow .questionCardQues {
+    width: 90%;
+  }
+}

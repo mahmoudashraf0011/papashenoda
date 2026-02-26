@@ -1,0 +1,7 @@
+@media (max-width: 662px) {
+  
+  .books-section-one-books-info .books-section-one-info img{
+    width: 100px !important;
+    height: 100px !important;
+  }
+}

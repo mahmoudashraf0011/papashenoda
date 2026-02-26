@@ -1,0 +1,11 @@
+.virtuesPage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 196px; */
+    min-height: 65vh;
+
+
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+  }

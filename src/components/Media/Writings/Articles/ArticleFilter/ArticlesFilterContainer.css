@@ -1,0 +1,12 @@
+.articlesFilterContainer {
+    /* margin-bottom: 70px; */
+}
+.articlesFilterContainer > .mediaHeader > .Container > .headerContent .media_more_btn{
+    display: none;
+}
+.articlesFilterContainer > .mediaHeader{
+    margin-top: 90px;
+}
+.articlesFilterContainer > .mediaHeader > .Container > .headerContent {
+    direction: rtl;
+}

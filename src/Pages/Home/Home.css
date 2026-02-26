@@ -1,0 +1,117 @@
+.Home{
+    
+    background: #F8F3ED;
+
+    min-height: 60.8vh;
+    position: relative;
+    z-index: 100;
+
+}
+
+.randomQoute{
+    position: fixed;
+    top: 50%;
+    right: -372px;
+    width: 500px;
+    height: 100px;
+    z-index: 1000;
+
+}
+
+.randomQouteImg > img{
+    background: #810400;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    padding:10px;
+    width: 50px;
+    top: 220px;
+    z-index: 120000000000000;
+
+
+}
+.randomQouteDropDownContent{
+    position: relative;
+}
+.randomQouteDropDownContent .randomCard{
+    position: absolute;
+    top: -47px;
+    left: -620px;
+width: 600px;
+background-color: #fff;
+height: 300px;
+padding-top: 10%;
+border-radius: 15px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+-ms-border-radius: 15px;
+-o-border-radius: 15px;
+box-shadow: 0px 4px 8px 0px #0000001F;
+display: none;
+}
+.randomWriteCardImg{
+    width: 210px;
+    height: 320px;
+    position: absolute;
+    top: 13%;
+    right: 30px;
+    z-index: 20;
+}
+.randomWriteCardImg > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 160px;
+    -webkit-border-radius: 160px;
+    -moz-border-radius: 160px;
+    -ms-border-radius: 160px;
+    -o-border-radius: 160px;
+    z-index: 20;
+}
+.randomWriteCardContent{
+    text-align: right;
+    padding-right: 50%;
+    direction: rtl;
+
+}
+.randomWriteCardDesc{
+    font-family: Tajawal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38px;
+    width: 80%;
+    margin-bottom: 40px;
+    height: 100px;
+    overflow: hidden;
+    overflow-y: scroll; 
+    direction: rtl;
+
+}
+
+
+.randomWriteCardSignName{
+    font-family: Tajawal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: right;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+    }
+    
+    .randomWriteCardCategory{
+    font-family: Tajawal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+    color: #810400;
+    
+    }
+    html {
+        scroll-behavior: auto; /* Default: no smooth scrolling */
+      }

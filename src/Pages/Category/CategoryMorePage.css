@@ -1,0 +1,23 @@
+.categoryMorePage {
+  background: #f8f3ed;
+  color: black;
+  /* margin-top: 196px; */
+  min-height: 60.8vh;
+}
+.categoryMorePage .breadCrumb > li > a {
+  cursor: pointer;
+}
+html {
+  scroll-behavior: auto; /* Default: no smooth scrolling */
+}
+
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+  .books-section-one-books-info {
+    margin-left: 10% !important;
+    gap: 0px;
+  }
+  .books-section-one-info{
+    margin-top: -5% !important;
+  }
+}

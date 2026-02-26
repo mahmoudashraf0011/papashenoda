@@ -1,0 +1,21 @@
+.articlesFilterPage{
+    background: #F8F3ED;
+    color: black;
+  /* padding-top: 60px; */
+    padding-bottom: 1px;
+    min-height: 65.8vh;
+
+}
+.articlesFilterPage .mediaHeader{
+  margin-top: 50px !important;
+}
+.articlesFilterPage .headerContent {
+  justify-content: flex-end !important;
+}
+
+.articlesFilterPage .media_more_btn{
+  display: none;
+}
+html {
+  scroll-behavior: auto; /* Default: no smooth scrolling */
+}

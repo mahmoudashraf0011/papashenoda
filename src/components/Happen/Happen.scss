@@ -1,0 +1,461 @@
+.happen {
+    width: 100%;
+    display: flex;
+    // margin-top: 196px;
+    min-height: 69.9vh;
+}
+.happenParent{
+    background: rgba(248, 243, 237, 1);
+
+}
+/* headr */
+.happen-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 1rem 0;
+    background: rgba(248, 243, 237, 1);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+    width: 95%;
+
+}
+
+.happen-top-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+.happen-topic img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+    height: 300px;
+    object-position: bottom;
+  }
+
+.happen-top-img {
+    width: 320px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.happen-swiper-relative {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.happen-swiper {
+    height: 550px;
+    width: 100%;
+    position: relative;
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
+.happen-happen-ps {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.happen-happen-p {
+
+
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    padding-right: 20px;
+    text-align: right;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 35px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto 0;
+        background: rgba(252, 195, 69, 1);
+    }
+}
+.happen-rel{
+    position:relative;
+}
+.happen-happen-p-abs {
+
+
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 20px;
+    text-align: right;
+    position: absolute;
+    top:240px;
+    right:20px;
+
+    
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 25px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin:auto 0;
+        background: rgba(252, 195, 69, 1);
+    }
+}
+.happen-happen-p2 {
+
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: right;
+    background: rgba(26, 26, 26, 0.5);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: -webkit-box; /* Use flexbox for multi-line ellipsis */
+    -webkit-box-orient: vertical; /* Set the orientation to vertical */
+    -webkit-line-clamp: 3; /* Limit to 2 lines */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Add ellipsis */
+    line-height: 1.4; /* Adjust line height as needed */
+    max-height: 3em;
+    direction: rtl;
+}
+
+.happen-back {
+    position: absolute;
+    top: 44%;
+    left: 50px;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    img {
+        width: 40px;
+        height: 50px;
+        object-fit: contain;
+
+    }
+}
+
+.happen-front {
+    position: absolute;
+    top: 44%;
+    right: 50px;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+
+    }
+
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 40px !important;
+}
+
+.swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 1) !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: rgba(252, 195, 69, 1) !important;
+    width: 50px !important;
+    border-radius: 15px !important;
+}
+
+.happen-topics {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    gap: 37px;
+direction: rtl
+;}
+
+.happen-topic {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        height: 300px;
+    }
+
+}
+.happen-bottom-topic{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    align-items: flex-start;
+
+
+}
+.happen-bottom-topic-date{
+    color: #810400;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+}
+.happen-bottom-topic-info{
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-left: 70px;
+    text-align: right;
+    color: #767676;
+    display: -webkit-box; /* Use flexbox for multi-line ellipsis */
+    -webkit-box-orient: vertical; /* Set the orientation to vertical */
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Add ellipsis */
+    line-height: 1.4; /* Adjust line height as needed */
+    max-height: 4.2em;
+    direction: rtl;
+    width: 100%;
+}
+.happen-happen-head{
+font-family: Tajawal;
+font-size: 33px;
+font-weight: 900;
+line-height: 48px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;    
+color: #810400;
+position: relative;
+top:-30px
+
+}
+
+.happen-year{
+    width: 65px;
+    input{
+        text-align: center;
+        background: #F3F3F3 !important;
+       
+        font-size: 16px;
+        font-weight: 400;
+        color: #1C2327;
+        border: none;
+
+        
+    }
+
+}
+
+.happen-month{
+    width: 35px;
+    input{
+        text-align: center;
+        background: #F3F3F3;
+        font-size: 16px;
+        font-weight: 400;
+        color: #1C2327;
+        border: none;
+    }
+}
+.happen-month:focus {
+    outline: none !important;
+    border: none !important; /* Optional: Remove border if necessary */
+  }
+.happen-year-cont{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: white;
+    padding: .75rem;
+    border-radius: 10px;
+}
+
+.happen-year-p{
+    color: #1C2327;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Cairo;
+}
+.happen-read-arrow{
+    display: flex;
+    align-self: flex-end;
+    gap: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    img{
+        display: none;
+        width: 10px;
+        height: 15px;
+        object-fit: contain;
+    }
+    direction: ltr;
+    text-align: left;
+    // width: 100%;
+}
+
+
+.happen-bottom-read{
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 25px;
+    border-radius: 7px;
+    transition: background-color 0.5s, color 0.4s;
+}
+.happen-bottom-read:hover{
+    background: #810400;
+    color: white;
+}
+.happen-date{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    top:-30px
+}
+.happen-search{
+    background: #810400;
+    padding: 12px 13px 7px 13px;
+    border-radius: 10px;
+    img{
+        width: 20px;
+        height: 20px;
+        font-weight: bold;
+    }
+}
+
+.happenBg{
+    margin-top: 215px;
+    background-image: url('../../../public/assets/eventBg.png');
+    height: 120px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.happenBgDesc{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    width: 100%;
+    font-family: Tajawal;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(129, 4, 0, 1);
+
+    
+}
+.happenBgImg{
+    position: absolute;
+    bottom: 0;
+}
+html {
+    scroll-behavior: auto !important; /* Default: no smooth scrolling */
+  }
+
+  .p-datepicker{
+    top: 337px !important;
+    transform-origin: top !important;
+  }
+  .happen-topic a{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+  }
+  .delete_all{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.delete_all:hover{
+   background-color: #810400;
+   color: #fff;
+}
+
+
+.p-datepicker-group-container .p-datepicker-header{
+    display: none;
+}
+.happen-topic .download-btn{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: linear-gradient(90deg, #FFF3D8 0%, #F8F3ED 50%, #FFF3D8 100%);
+    color: #000;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    width: fit-content !important;
+
+}

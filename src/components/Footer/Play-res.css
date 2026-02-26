@@ -1,0 +1,55 @@
+@media (max-width: 662px) {
+  .play-complex-play {
+    height: auto;
+  }
+  .play-complex-play-cont {
+    gap: 0;
+    flex-direction: column-reverse;
+  }
+  .play-info-cont {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .soundsPage .rhap_progress-container {
+    margin: 0 !important;
+    position: relative !important;
+    top: -66px !important;
+    height: 30px !important;
+  }
+  .play-complex-play-cont {
+    padding: 0;
+  }
+  .play-info-img {
+    width: 50px;
+  }
+  .play-name {
+    padding-right: 34px;
+  }
+  .download-audio {
+    position: absolute;
+    top: 57% !important;
+    left: 10px !important;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    text-decoration: none;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .play-loop {
+    left: 110px !important;
+  }
+}/*# sourceMappingURL=Play-res.css.map */

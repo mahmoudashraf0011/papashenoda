@@ -1,0 +1,64 @@
+.categoryHeader{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    direction: rtl;
+}
+.categoryRight{
+    display: flex;
+    align-items: last baseline;
+    direction: ltr;
+}
+.categoryHeaderTitle{
+    font-size: 38px;
+    position: relative;
+    padding-right: 20px;
+
+}
+.categoryHeaderTitle::after{
+    position: absolute;
+    content: "";
+    height: 70%;
+    top: 9px;
+    right: 0;
+    border: 3px solid #FCC345;
+
+}
+.categoryHeader > .categoryRight >  span{
+    padding-right: 14px;
+    color: gray;
+    font-weight: bold;
+    font-size: 19px;
+}
+.categoryHeader > a{
+    cursor: pointer;
+    color: rgba(129, 4, 0, 1);
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 690px) {
+  .searchContainer .categoryHeader{
+    margin-top: 5% !important;
+  }
+  .searchContainer .books-section-one-books-info{
+    margin-left: -1% !important;
+  }
+  .searchContainer .books-section-one-save2{
+    overflow: visible !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 830px) {
+  .searchContainer .categoryHeader{
+    margin-top: 5% !important;
+  }
+  .searchContainer .books-section-one-books-info{
+    margin-left: -1% !important;
+  }
+  .searchContainer .books-section-one-save2{
+    overflow: visible !important;
+  }
+}

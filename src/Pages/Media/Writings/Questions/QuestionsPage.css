@@ -1,0 +1,23 @@
+.questionsPage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 156px; */
+    /* padding-top: 40px; */
+    padding-bottom: 1px;
+    min-height: 97.8vh;
+
+
+}
+.paginate{
+    background-color: transparent !important;
+}
+.questionsPage  .mediaHeader{
+    margin-top: 60px;
+    direction: rtl;
+}
+.questionsPage .media_more_btn{
+    display: none;
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+}

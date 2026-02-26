@@ -1,0 +1,29 @@
+/* على جميع الأجهزة */
+.skeleton-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/* على الديسكتوب */
+@media screen and (min-width: 430px) {
+  .skeleton-container {
+    display: flex;
+  }
+}
+
+/* على الموبايل عندما يكون العرض 430px أو أقل */
+@media screen and (max-width: 430px) {
+  .skeleton-container {
+    display: block;
+  }
+
+  .categoryRow {
+    display: block; /* تأكيد تنسيق العناصر في الموبايل */
+  }
+
+  .categorySoundData {
+    width: 100%; /* تأكيد أن البيانات تظهر بشكل ملائم في الموبايل */
+  }
+}

@@ -1,0 +1,46 @@
+$width: 662px;
+$width2: 1050px;
+
+@media(max-width:#{$width}) {
+    .about{
+        margin-top: 0 !important;
+    }
+    .about-img {
+        height: 120px;
+        object-fit: fill;
+    }
+
+    .about-infos {
+        padding: 1rem;
+    }
+
+    .about-about, .about-about2  {
+        font-size: 25px;
+    }
+
+    .about-about-ps p,
+    .about-about-ps2 p {
+        font-size: 19px;
+        padding-right: .5rem;
+    }
+    .about-about::before{
+        width: 4px;
+    }
+
+}
+
+@media(min-width:#{$width}) and (max-width:#{$width2}){
+
+    .about-infos {
+        padding: 1rem 3rem;
+    }
+    .about-about, .about-about2  {
+        font-size: 30px;
+    }
+
+    .about-about-ps p,
+    .about-about-ps2 p {
+        font-size: 22px;
+        padding-right: .5rem;
+    }
+}

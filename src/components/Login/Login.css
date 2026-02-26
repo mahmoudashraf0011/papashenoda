@@ -1,0 +1,34 @@
+.messageInput {
+  color: #810400;
+  font-size: 14px;
+  direction: rtl;
+  padding-right: 10px;
+  display: block;
+  height: 4px;
+}
+
+.messageContainer {
+  text-align: center;
+  margin-top: 10px;
+  color: #810400;
+  font-size: 14px;
+}
+
+.signup-p-check > a {
+  cursor: pointer;
+}
+
+.profileActive {
+  border: 1px solid #EA4335 !important;
+  background: #FAF3F3 !important;
+  color: #AD8888 !important;
+}
+
+html {
+  scroll-behavior: auto; /* Default: no smooth scrolling */
+}
+
+.custom-password-input {
+  -webkit-text-security: disc; /* Replaces characters with black circles */
+  text-security: disc; /* Non-standard but supported in some browsers */
+}/*# sourceMappingURL=Login.css.map */

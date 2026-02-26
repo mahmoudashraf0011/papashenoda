@@ -1,0 +1,34 @@
+.sayingFilterContainer {
+    margin-top: 40px;
+}
+.sayingFilterContainer > .mediaHeader > .Container > .headerContent .media_more_btn{
+    display: none;
+}
+.sayingFilterContainer > .mediaHeader{
+    margin-top: 25px;
+}
+.sayingFilterContainer > .mediaHeader > .Container > .headerContent {
+    direction: rtl;
+}
+
+@media (max-width: 768px) {
+    /* خلي الحاوية relative عشان نقدّر نثبت العداد جوّاها */
+    .overlay .overlayDocsImg {
+      position: relative;
+      overflow: visible; /* نتأكد إن اللي جوّاها يبان */
+      padding-bottom: 28px; /* مساحة بسيطة تحت للصق العداد من غير ما يغيّر الـ UI */
+    }
+  
+    /* استهدف آخر div جوّه overlayDocsImg (وهو العداد) */
+    .overlay .overlayDocsImg > div:last-child {
+      position: absolute;
+      left: 50%;
+      bottom: -11px;
+      transform: translateX(-50%);
+      z-index: 2;
+      display: block;
+      white-space: nowrap;
+      /* مفيش تغيير ألوان/ستايل شكل—بنثبت بس مكانه ليظهر */
+      /* لو عندك ثيم غامق/فاتح بيغير اللون تلقائيًا، هيكمل يشتغل زي ما هو */
+    }
+  }

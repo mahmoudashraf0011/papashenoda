@@ -1,0 +1,27 @@
+.sayingFilterPage{
+    background: #F8F3ED;
+    color: black;
+  /* padding-top:255px; */
+    padding-bottom: 50px;
+    padding-top: 20px;
+    min-height: 95vh;
+
+ 
+}
+.sayingFilterPage .headerContent {
+  justify-content: flex-end !important;
+}
+.sayingFilterPage .pagination {
+  margin-top: 30px !important;
+  padding-bottom: 0 !important;
+}
+
+.sayingFilterPage .media_more_btn{
+  display: none;
+}
+.sayingFilterPage .mediaHeader{
+  margin-top: 15px !important;
+}
+html {
+  scroll-behavior: auto; /* Default: no smooth scrolling */
+}

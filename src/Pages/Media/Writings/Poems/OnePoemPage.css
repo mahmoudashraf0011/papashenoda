@@ -1,0 +1,19 @@
+.onePoemPage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 130px; */
+    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    min-height: 105.8vh;
+
+
+}
+.onePoemPage .media_more_btn{
+    display: none;
+}
+.onePoemPage .mediaHeader .headerContent{
+    direction: rtl !important;
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+}

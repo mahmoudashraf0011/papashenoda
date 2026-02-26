@@ -1,0 +1,46 @@
+/* Container for the loading dots */
+.loading-dots {
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 30px;
+    margin: 0 50%;
+  }
+  
+  /* Individual dot style */
+  .loading-dots div {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    animation: dot 1.4s infinite ease-in-out;
+  }
+  
+  /* Dot animations: "dot" animation creates the effect of dots appearing in sequence */
+  .loading-dots div:nth-child(1) {
+    left: 0;
+    animation-delay: 0s;
+  }
+  
+  .loading-dots div:nth-child(2) {
+    left: 20px;
+    animation-delay: 0.2s;
+  }
+  
+  .loading-dots div:nth-child(3) {
+    left: 40px;
+    animation-delay: 0.4s;
+  }
+  
+  /* Animation for the dots */
+  @keyframes dot {
+    0%,
+    100% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }
+  

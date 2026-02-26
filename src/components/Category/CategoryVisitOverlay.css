@@ -1,0 +1,124 @@
+/* Uniform media container */
+.visits-media {
+    width: 100%;
+    max-width: 100%;
+    max-height: 80vh;        /* keeps inside viewport */
+    aspect-ratio: 16 / 9;    /* consistent desktop ratio */
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #000;        /* looks better while loading */
+  }
+  
+  /* Fill the container uniformly */
+  .visits-media > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       /* ✅ same size across slides */
+    object-position: center;
+    display: block;
+  }
+  
+  /* Zoom effect */
+  .zoomable {
+    cursor: zoom-in;
+    transition: transform 0.25s ease;
+  }
+  .zoomable.zoomed {
+    cursor: zoom-out;
+    transform: scale(1.05);
+  }
+  
+  /* Mobile: taller aspect */
+  @media (max-width: 768px) {
+    .visits-media {
+      aspect-ratio: 4 / 5;   /* good for portrait */
+      max-height: 75vh;
+    }
+  }
+  
+
+
+/* === برواز أنيق حول الصورة === */
+.visits-media {
+  position: relative;
+  background: #000; /* خلفية البرواز */
+  padding: 35px 35px 35px 35px; /* أعلى 6px، باقي الجوانب أرفع */
+  border: 2px solid #222; /* سمك الإطار أقل */
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+.visits-media img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 6px;
+  display: block;
+}
+.zoomable.zoomed {
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+.visits-swiper-left > div[style*="text-align: center"] {
+  /* background: rgba(0,0,0,0.75); */
+  color: white;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  position: relative;
+  top: -125px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Tajawal", sans-serif;
+  letter-spacing: 0.3px;
+}
+.searchMoreContainer .visits-swiper-left > div[style*="text-align: center"] {
+  /* background: rgba(0,0,0,0.75); */
+  color: white;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  position: relative;
+  top: -130px !important;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Tajawal", sans-serif;
+  letter-spacing: 0.3px;
+}
+@media (max-width: 768px) {
+  .visits-media {
+    width: 90%;
+    padding: 80px 5px 80px 5px;
+    border-width: 1.5px;
+  }
+
+  .visits-media img {
+    max-height: 60vh;
+  }
+
+  .visits-swiper-left > div[style*="text-align: center"] {
+    font-size: 13px;
+    padding: 4px 9px;
+    margin-top: 25%;
+  }
+
+  
+  .download-btn-cate{
+    margin-right: 0% !important;
+  }
+
+  
+  .searchContainer .download-btn-cate{
+    margin-top: 10% !important;
+  }
+
+}
+

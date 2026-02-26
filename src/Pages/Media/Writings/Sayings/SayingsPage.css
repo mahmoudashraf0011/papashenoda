@@ -1,0 +1,15 @@
+.sayingsPage{
+    background: #F8F3ED;
+    color: black;
+    /* margin-top: 195px; */
+    padding-bottom: 80px;
+
+    min-height: 65.8vh;
+
+}
+.sayingsPage  .sayingsWriteContainer{
+    margin-top: -70px;
+}
+html {
+    scroll-behavior: auto; /* Default: no smooth scrolling */
+  }
