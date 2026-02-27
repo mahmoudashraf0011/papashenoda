@@ -60,9 +60,10 @@ The production-ready files will be generated inside the `build/` folder.
 
 - React
 - Redux
-- Bootstrap
 - JavaScript
+- Bootstrap
 - CSS
+- Sass
 - Create React App
 
 ---
